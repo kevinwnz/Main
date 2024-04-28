@@ -1,0 +1,22 @@
+/* Calendar Styles */
+
+.cheadv {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #5c5a5a;
+  font-size: 12pt;
+  color: white;
+  font-weight: bold;
+}
+
+
+.NewM {
+  color: blue;
+}
+
+.chead {
+  color: white;
+  background: purple;
+}
+
+/*......................................*/

@@ -1,0 +1,141 @@
+.txthlite {
+	margin: auto;
+	display: block;
+	width: 50%;
+	text-align: center;
+	font-size: xx-large;
+	font-family: fantasy;
+	background-color: red;
+	color: white;
+}
+/* --- Headings --- */
+h1 {
+  color: red;
+}
+
+
+h2 {
+  color: maroon;
+}
+
+h3{
+  color: blue;
+ }
+
+
+
+/* --- Heading Section End --- */
+
+hr {
+  margin-left: 25%;
+  width: 50%;
+  border-width: 2px;
+  border-color: blue;
+  margin-top: 2%;.note {
+  font-weight: bold;
+  color: red;
+}
+  margin-bottom: 2%;
+}
+
+.note {
+  font-weight: bold;
+  color: red;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 5px;
+}
+
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 5px;
+	font-size: 20px;
+	text-align: center;
+}
+.Shadow {
+  text-shadow: 4px 4px 3px #333;
+  color: red;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#ieffect {
+  margin: auto;
+  display: block;
+  min-height: 150px;
+  width: 150px;
+  background-color: gray;
+  border: 15px red ridge;
+}
+
+div #animate {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px 120px;
+  background: blue;
+  color: white;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {
+    left: 5px;
+  }
+
+  to {
+    left: 800px;
+  }
+}
+
+#Window {
+  margin: auto;
+  display: block;
+  width: 50vw;
+  height: 55vh;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #cdbddc56;
+  border-radius: 16px;
+  box-shadow: 0px 5px 15px 0px black;
+  border: 5px solid rgba(200, 200, 255, 1);
+}
+
+.imgcontainer {
+  width: 820px;
+  height: 120px;
+  left: 25%;
+  background-color: silver;
+  border: 5px orangered ridge;
+  position: relative;
+}
+
+.imgcontainer img {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-60%, -60%);
+}
+
+#bwin {
+  margin: auto;
+  display: block;
+  box-shadow: 5px 5px 10px 5px red;
+  width: 95% 
+}
+
+.bwin{
+  margin: auto;
+  display: block;
+  box-shadow: 5px 5px 10px 5px red;
+  width: 95% 
+}
+.bshad{
+  box-shadow: 5px 5px 10px 5px red;
+}

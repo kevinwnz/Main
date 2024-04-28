@@ -1,0 +1,261 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+a {
+  color: blue;
+  background-color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: #fffa55;
+  text-decoration: overline underline;
+}
+
+
+#head {
+  background-color: #eeeeee
+}
+
+.himg {
+  width: auto;
+  height: auto;
+  padding: 5px;
+}
+
+.threedtxtbox {
+  text-align: center;
+  width: 60%;
+  left: 60%;
+  border-right: black 4px solid;
+  border-bottom: black 4px solid;
+  border-left: 2px solid rgb(180, 180, 180);
+  border-top: 2px solid rgb(180, 180, 180);
+  background-color: White;
+}
+
+
+#head h2 {
+  width: 50%;
+  margin-left: 25%;
+  background-color: #ffff5f;
+  color: blue;
+  font-size: 25px;
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 5px;
+}
+
+.centxt {
+  text-align: center;
+}
+
+
+article {
+  width: auto;
+  min-height: auto;
+}
+
+aside {
+  width: 600px;
+  min-height: auto;
+}
+
+footer {
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+}
+
+/* Styles to combine */
+.myp_bdr {
+  border: blue double 5px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.paper {
+  min-height: 200px;
+  background-color: white;
+  padding: 10px;
+}
+
+ .mypjt{
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+/*---------------------------------------------------------------*/
+
+/* Combined sytle */
+.mypro{
+  display: block;
+  margin: auto;
+  width: 90%;
+  border: blue double 5px;
+  border-radius: 15px;
+  padding: 10px;
+  min-height: 200px;
+  background-color: white;
+  padding: 10px;
+  }
+  
+  .lhost{
+    display: block;
+    margin: auto;
+    width: 90%;
+    border: blue double 5px;
+    border-radius: 15px;
+    padding: 10px;
+    min-height: 200px;
+    background-color: white;
+    padding: 10px;  
+  }
+  /*------------------------------------------------------------*/
+
+/* --- Menu Tests Start Here --- */
+nav {
+  display: inline-block;
+  background-color: #07a164;
+  text-align: center;
+  width: 100%;
+}
+
+
+nav#nav-main .nav_bar {
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  background-color: blue;
+  /*font-weight: bold;*/
+}
+
+nav#nav-main .nav_bar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  background-color: blue;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+nav#nav-main .dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+nav#nav-main .dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 8px;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+}
+
+nav#nav-main .nav_bar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+nav#nav-main .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: blue;
+  min-width: 100px;
+  box-shadow: 0px 0px 10px 0px black;
+  z-index: 1;
+}
+
+nav#nav-main .dropdown-content a {
+  float: none;
+  color: white;
+  /*font-size: 14px;*/
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+nav#nav-main .dropdown-content a:hover {
+  color: red;
+  background-color: #fffa55;
+  text-decoration: overline underline;
+}
+
+nav#nav-main .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* --- Menu Tests End Here --- */
+
+#Sect_Main {
+  background-color: #eeeeee;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#Sect_Main h1 {
+  font-size: xx-large;
+  font-family: arial black;
+}
+
+#Sect_Main a {
+  color: Blue;
+  background-color: white;
+  text-decoration: solid;
+}
+
+#Sect_Main a:hover {
+  color: red;
+  background-color: #fffa55;
+  text-decoration: overline underline;
+}
+
+#indbmenu p {
+  margin-top: 15px;
+  background-color: #ffffcc;
+  Margin-left: 320px;
+  margin-right: 320px;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+/* Top of Page */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.imgsize {
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+}
+

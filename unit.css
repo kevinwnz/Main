@@ -1,0 +1,47 @@
+.pt{
+  font-size: 15pt;
+}
+
+.px{
+  font-size: 15px;
+}
+
+.pc{
+  font-size: 5pc;
+}
+
+.em{
+  font-size: 5em;
+}
+
+.ex{
+  font-size: 5ex;
+}
+
+.rem{
+  font-size: 5rem;
+}
+
+.in{
+  font-size: 1in;
+}
+
+.cm{
+  font-size: 1cm;
+}
+
+.mm{
+  font-size: 5mm;
+}
+
+.percent{
+  font-size: 100%;
+}
+
+.ex{
+  font-size: 5ex;
+}
+
+.q{
+  font-size: 25q;
+}

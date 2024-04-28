@@ -1,0 +1,65 @@
+.bindspec {
+  display: block;
+  margin: auto;
+  width: 90%;
+  border: blue double 5px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: white;
+  padding: 10px;  
+}
+
+.bindspec h3 {
+  margin-left: 50px;
+  background-color: white;
+}
+
+article.blog {
+  padding-top: 1rem;
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+  margin-left: 5rem; 
+  max-width: 80%;
+  text-align: justify;
+  background-color: #ddd; 
+  border-bottom: black solid 2px;
+  border-right: black solid 2px;
+  border-radius: 15pt;
+}
+
+article.blog p {
+  font-size: 17pt;
+  padding-top: 5pt;
+  padding-left: 10px;
+}
+
+article.blog li {
+  font-size: 17pt;
+}
+
+article.blog h3{
+  background-color: white;
+  font-size: 20pt;
+  max-width: 60%;
+}
+
+article.blog h4 {
+  background-color: darkgreen;
+  color: white;
+  font-size: 16pt;
+  text-align: center;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  text-transform: initial;
+  border-radius: 10px;
+}
+
+.B_index {
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  text-transform: initial;
+  border-radius: 10px;
+}
