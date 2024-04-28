@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Localhost - Animated Banner</title>
+		<script src="js/time.js"></script>
+		<link rel="stylesheet" href="style/basic.css" type="text/css">
+<style>
+.myp_bdr {
+  border: blue double 5px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.paper {
+  min-height: 200px;
+  background-color: white;
+  padding: 10px;
+}
+.layout{
+  border: blue double 5px;
+  border-radius: 15px;
+  padding: 10px;
+  min-height: 200px;
+  background-color: white;
+  padding: 10px;
+}
+</style>
+	</head>
+
+	<body>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">
+			<img src="img/back-to-top.png" alt="Top of Page" />
+		</button>
+		<header id="head" class="centxt">
+			<img class="himg threedtxtbox" src="img/lhproject_main.png" alt="Main Header" title="LOCALHOST" />
+
+			<script>
+				var str = document.title;
+				document.write("<h2>" + str);
+			</script>
+			<p style="font-size: 3pt">&nbsp;</p>
+		</header>
+		<p style="font-size: 3pt">&nbsp;</p>
+
+		<!-- Main Menu -->
+		<nav id="nav-main">
+			<div class="nav_bar">
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="index.html">Home</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="todo.html">Things To Do</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="ThingsDone.html">Things Done</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">My Blogs</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="blog_index.html">Blog Index</a>
+						<a href="Blogs.html">Blog Detail</a>
+						<a href="blogArchive.html">Blog Archive</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="img_gal.html">Image Gallery</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Calendar Menu</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="12month.html">12 Month Calendar</a>
+						<a href="Calendar.html">Web Calendar</a>
+						<a href="EasyCal.html">Easy UI Calendar</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Demo Pages</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="demo_one.html">Content Demo 1</a>
+						<a href="demo_two.html">Content Demo 2</a>
+						<a href="demo_three.html">Content Demo 3</a>
+						<a href="demo_four.html">Content Demo 4</a>
+						<a href="calage.html">Calculate Age Demo</a>
+						<a href="cssunits.html">Css Unit Demo</a>
+						<a href="Test.html">Other Tests</a>
+						<a href="Template.html">My Template</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="myproject.html">My project</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="login.html">Login Demo</a>
+						<a href="useful.html">Useful Links</a>
+						<a href="Imagemap.html">Image Map</a>
+						<a href="mouseover_demo.html">Mouse Over Demo</a>
+						<a href="myanigif.html">My Animated Banner</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- Menu Ends -->
+
+
+		<div id="Sect-Main">
+
+			<div class="main">
+				<article class="layout">
+					<h3 class="centxt">
+						I have started a project to create an Animated Banner using the image
+						editors I have, this how I did it and what I learned
+					</h3>
+					<h3 class="centxt">
+						What I have done so far...
+					</h3>
+					<ol>
+						<li>
+							The first thing I did from GIMP Was to create a base banner,
+							from which I can make my frames from. I am having great trouble
+							trying to make my frames look as so it is typing out the words
+							one letter at a time, I have even tried other image editors to
+							achive this but have not had any luck so far.
+						</li>
+						<li>
+							After playing around with various image editors I have found an
+							editor that can do what I want and I am starting to build up the
+							frames for the banner. The next step is to make the '.gif' file
+						</li>
+						<li>
+							I have played with serveral ways of making the final animated
+							'.gif' file. I now sorting out issues regarding getting the
+							animation to look right, below this part of the page I am going
+							to display the animations created with various programs and will
+							comment on how easy it has been to get the animation working. (I
+							may even change the layout of the page so I can have the
+							animations on the right hand side of the screen. I am still
+							making my mind up on how the final layout may appear)
+						</li>
+						<li>
+							Now that I have got the this page sorted, The program I settled
+							on to create the frames was 'Photofilter' which is from a french
+							author. because this is a mainly txt based banner I had to find
+							a way of writing the text I wanted on the banner and this editor
+							suited my needs. the next thing was to assemble the 'frames' of
+							which there are 39 and get the timings right, this why I tried 3
+							different methods of doing this. As you can see in the animation
+							I did not get the text aligned properly so in the final
+							animation in places it looks a bit strange.
+						</li>
+						<li>
+							On the right hand side is the 3 examples of the banner done with
+							the 3 different programs. I was going to show the frames used in
+							the animated banner, but because of the size it was in practicle
+							to display the frames
+						</li>
+					</ol>
+					<br><br><br>
+				</article>
+				<aside class="layout">
+					<h3 class="centxt">The Images used in this project...</h3>
+					<p>
+						The first image was created using 'GIMP' an open source Image
+						editor
+					</p>
+					<img src="/Animate/complete/Animate.gif" alt="GIMP" style="width: 600px" title="First animated Banner" />
+					<p>
+						This version is done with Animation Shop from Paint shop Pro. This
+						I had a lot of problems with getting the Banner to work right
+					</p>
+					<img src="/Animate/complete/Animate_shop.gif" alt="Paint shop Pro" style="width: 600px"
+						title="Done with Paint shop Pro" />
+					<p>
+						This next one was done using another Animation Suite, it was a bit
+						easier to use
+					</p>
+					<img src="/Animate/complete/SSuiit_Animate.gif" alt="SS Suite" style="width: 600px"
+						title="SS Suite Animation" />
+				</aside>
+			</div>
+
+			<!--Bottom Menu Goes here-->
+			<hr />
+			<div id="indbmenu">
+				<p class="centxt">
+					&nbsp;&nbsp;&nbsp;<a href="index.html">
+						<img src="img/hm.gif" alt="Home" title="Home" class="imgsize"> Home</a>
+					&nbsp;&nbsp;&nbsp;<a href="blog_index.html">Blog
+						Index</a>&nbsp;&nbsp;&nbsp;<a href="todo.html">To Do</a>&nbsp;&nbsp;&nbsp;<br />
+					<a href="myproject.html">My Project</a>&nbsp;&nbsp;&nbsp;
+					<a href="ThingsDone.html">Things Done</a>&nbsp;&nbsp;&nbsp;<a href="useful.html">Useful
+						Links</a>
+				</p>
+			</div>
+		</div>
+		<!-- Footer -->
+		<footer>
+			<time id="row1">
+			</time>
+			<br />
+			<time id="row2">
+			</time>
+			<script type="text/javascript">
+				updateClock();
+			</script>
+		</footer>
+
+		<!--Top of Page Script-->
+		<script>
+			// Get the button
+			let mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function () {
+				scrollFunction();
+			};
+
+			function scrollFunction() {
+				if (
+					document.body.scrollTop > 20 ||
+					document.documentElement.scrollTop > 20
+				) {
+					mybutton.style.display = "block";
+				} else {
+					mybutton.style.display = "none";
+				}
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
+
+
+	</body>
+
+</html>

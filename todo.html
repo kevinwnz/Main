@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Localhost - To Do</title>
+		<link rel="stylesheet" href="style/basic.css" />
+		<link rel="stylesheet" href="style/custom.css">
+		<link rel="stylesheet" href="style/Table.css" />
+		<script src="js/time.js"></script>
+
+	</head>
+
+	<body>
+		<header id="head" class="centxt">
+			<img class="himg threedtxtbox" src="img/lhproject_main.png" alt="Main Header" title="LOCALHOST" />
+
+			<script>
+				var str = document.title;
+				document.write("<h2>" + str);
+			</script>
+		</header>
+		<p style="font-size: 3pt;">
+			&nbsp;</p>
+
+		<!-- Main Menu -->
+		<nav id="nav-main">
+			<div class="nav_bar">
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="index.html">Home</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="todo.html">Things To Do</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="ThingsDone.html">Things Done</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">My Blogs</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="blog_index.html">Blog Index</a>
+						<a href="Blogs.html">Blog Detail</a>
+						<a href="blogArchive.html">Blog Archive</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="img_gal.html">Image Gallery</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Calendar Menu</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="12month.html">12 Month Calendar</a>
+						<a href="Calendar.html">Web Calendar</a>
+						<a href="EasyCal.html">Easy UI Calendar</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Demo Pages</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="demo_one.html">Content Demo 1</a>
+						<a href="demo_two.html">Content Demo 2</a>
+						<a href="demo_three.html">Content Demo 3</a>
+						<a href="demo_four.html">Content Demo 4</a>
+						<a href="calage.html">Calculate Age Demo</a>
+						<a href="cssunits.html">Css Unit Demo</a>
+						<a href="Test.html">Other Tests</a>
+						<a href="Template.html">My Template</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="myproject.html">My project</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="login.html">Login Demo</a>
+						<a href="useful.html">Useful Links</a>
+						<a href="Imagemap.html">Image Map</a>
+						<a href="mouseover_demo.html">Mouse Over Demo</a>
+						<a href="myanigif.html">My Animated Banner</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<main id="Sect_Main">
+			<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/back-to-top.png"
+					alt="Top of Page"></button>
+			<p>&nbsp;</p>
+			<table>
+				<tr>
+					<td>
+						<h4 style="padding: 10px;">This where I want to add thing
+							to do on the website, soft of a planning
+							page.<br />I still hope to
+							keep things done upto date on the my home page.<br /> Below
+							is a list which I started on the
+							Home
+							page this page will give me more room for this list. <br />
+							I have change my plans on updating the home
+							page instead I am going to Have two parts of the Todo page,
+							<br /> The left hand side will be the To Do
+							and the right side will be what I have done. <br /> As I
+							have got more done than to do I am leaving it
+							on the
+							to do side but putting the checkmark image there.
+						</h4>
+					</td>
+				</tr>
+			</table>
+			<br />
+			<hr />
+
+
+
+			<h1 class="centxt">
+				Ideas and To Do:
+			</h1>
+			<table class="to_do" style="width: 50%;">
+				<tr>
+					<th style="border: 2px solid black;">
+						Tasks to do
+					</th>
+					<th style="border:  2px solid black;">
+						Status
+					</th>
+				</tr>
+				<tr>
+					<td>
+						Get a Led Segment display working in html
+					</td>
+					<td class="todo">
+						To-Do:
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Add another Animated Image but smaller
+					</td>
+					<td class="todo">To-Do:</td>
+				</tr>
+				<tr>
+					<td>
+						Investigate doing a sample using 'DHTML' (I dont know if it is possible or not)
+					</td>
+					<td class="inprogress">
+						In Progress:
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Re-do Images for the Image map Example
+					</td>
+					<td class="todo">
+						To-Do:
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Add Green dot bullet image to all blog posts
+					</td>
+					<td class="inprogress">
+						In Progress:
+					</td>
+				</tr>
+			</table>
+			<br />
+			<!-- ************************************************************************************************************************************ -->
+			<!-- ********************************************************** Ongoing table *********************************************************** -->
+			<!-- ************************************************************************************************************************************ -->
+			<h1 class="centxt">
+				On Going
+			</h1>
+			<br />
+			<table id="ong">
+				<tr>
+					<th>
+						On Going Tasks
+					</th>
+					<th>
+						Status
+					</th>
+				</tr>
+				<tr>
+					<td>
+						Update Static Calendar (On going)
+					</td>
+					<td class="inprogress">
+						In Progress:
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Update Links on 'Things Done' page (On going)
+					</td>
+					<td class="done">
+						Done for Moment:
+					</td>
+				</tr>
+				<tr>
+					<td>
+						update Dynamic content on Home page (On Going)
+					</td>
+					<td class="done">
+						Done for Moment:
+					</td>
+				</tr>
+				<tr>
+					<td>
+						replicate what is on the Home page dynamic content
+						to the my project page (On going)
+					</td>
+					<td class="inprogress">
+						In Progress:
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Keep 'to-do' page up to date (On going)
+					</td>
+					<td class="inprogress">
+						In Progress:
+					</td>
+				</tr>
+				<tr>
+					<td>
+						re-configure the text on across pages (On going)
+					</td>
+					<td class="done">
+						Done for Moment:
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Find more Javascripts to add to this website (On going)
+					</td>
+					<td class="done">
+						Done for Moment:
+					</td>
+				</tr>
+				<tr>
+					<td>
+						On going tidy up and fix of mistakes on the website
+					</td>
+					<td class="inprogress">
+						in Progress:
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Copy / Move done items over to 'Things Done' Page
+					</td>
+					<td class="inprogress">
+						In Progress:
+					</td>
+				</tr>
+			</table>
+			<hr />
+
+			<h3>
+				What has been Done (This has now been moved to
+				the 'Things Done Page'
+				<a href="ThingsDone.html">
+					Click here to go to the page
+				</a> )
+			</h3>
+			<br />
+			<hr />
+			<!--Remove padding as page grows-->
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p class="centxt"><img style="box-shadow: 0px 0px 10px 0px black;" class="imgsize" src="img/lhbanner.gif"
+					alt="LocalHost" title="LH Banner"></p>
+			<!--Bottom Menu Goes here-->
+			<hr />
+			<span id="indbmenu">
+				<p class="centxt">
+					<a href="index.html">
+						<img src="img/hm.gif" alt="Home" title="Home" class="imgsize"> Home
+					</a>
+					&nbsp;&nbsp;&nbsp;<a href="blog_index.html">Blog Index</a>
+					&nbsp;&nbsp;&nbsp;<a href="todo.html">To Do</a>
+					&nbsp;&nbsp;&nbsp;<br />
+					<a href="myproject.html">My Project</a>
+					&nbsp;&nbsp;&nbsp;
+					<a href="ThingsDone.html">Things Done</a>
+					&nbsp;&nbsp;&nbsp;<a href="useful.html">Useful Links</a>
+				</p>
+				<br />
+			</span>
+			<!-- Menu Ends -->
+		</main>
+		<script>
+			// Get the button
+			let mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function () { scrollFunction() };
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					mybutton.style.display = "block";
+				} else {
+					mybutton.style.display = "none";
+				}
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
+
+
+		<!-- Footer -->
+		<footer>
+			<time id="row1">
+			</time>
+			<br />
+			<time id="row2">
+			</time>
+			<script type="text/javascript">
+				updateClock();
+			</script>
+		</footer>
+	</body>
+
+</html>

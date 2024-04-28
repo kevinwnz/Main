@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Employees>
+    <Employee id="1">
+        <Name>Kate Hughs</Name>
+        <title>Sales Manager</title>
+        <Hiredate>Feburary 15 2000</Hiredate>
+        <OnTheRoad>No</OnTheRoad>
+        <IRD>022-340-653</IRD>
+        <Phone>09 170 5689-5610</Phone>
+    </Employee>
+    <Employee id="2">
+        <Name>John Hamilton</Name>
+       <title>salesperson</title>
+        <Hiredate>March 16 2000</Hiredate>
+       <OnTheRoad>When Required</OnTheRoad>
+       <IRD>543-667-227</IRD>
+        <Phone>023 545 5564</Phone>
+    </Employee>
+    <Employee id="3">
+        <Name>Tony cocsure</Name>
+        <title>salesperson</title>
+        <Hiredate>March 15 2000</Hiredate>
+        <OnTheRoad>Yes</OnTheRoad>
+        <IRD>870-670-490</IRD>
+        <Phone>023 556 4912</Phone>
+    </Employee>
+    <Employee id="4">
+        <Name>David Martin</Name>
+       <title>Sales Support</title>
+        <Hiredate>March 16 2000</Hiredate>
+        <OnTheRoad>When Required</OnTheRoad>
+        <IRD>331-261-541</IRD>
+        <Phone>023 560 7170</Phone>
+    </Employee>
+    <Employee id="5">
+        <Name>John Homes</Name>
+       <title>salesperson</title>
+        <Hiredate>April 20 2000</Hiredate>
+        <OnTheRoad>Yes</OnTheRoad>
+        <IRD>044-221-321</IRD>
+        <Phone>023 332 4791</Phone>
+    </Employee>
+    <Employee id="6">
+        <Name>Tony Henson</Name>
+       <title>salesperson</title>
+        <Hiredate>April 2 2000</Hiredate>
+        <OnTheRoad>Yes</OnTheRoad>
+        <IRD>222-546-781</IRD>
+        <Phone>023 332 4611</Phone>
+    </Employee>
+    <Employee id="7">
+        <Name>Sue Hammel</Name>
+       <title>salesperson</title>
+        <Hiredate>March 30 2000</Hiredate>
+        <OnTheRoad>Yes</OnTheRoad>
+        <IRD>099-765-091</IRD>
+        <Phone>023 445 7890</Phone>
+    </Employee>
+    <Employee id="8">
+        <Name>Joanne Ward</Name>
+       <title>Sales Support</title>
+        <Hiredate>March 25 2000</Hiredate>
+        <OnTheRoad>No</OnTheRoad>
+        <IRD>319-409-551</IRD>
+        <Phone>09 170 6480-5630</Phone>
+    </Employee>
+</Employees>

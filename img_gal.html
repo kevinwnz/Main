@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Localhost - Image Gallery</title>
+		<link rel="stylesheet" href="style/basic.css" />
+		<link rel="stylesheet" href="style/gallery.css">
+		<script src="js/time.js"></script>
+	</head>
+
+	<body>
+		<header id="head" class="centxt">
+			<img class="himg threedtxtbox" src="img/lhproject_main.png" alt="Main Header" title="LOCALHOST" />
+
+			<script>
+				var str = document.title;
+				document.write("<h2>" + str);
+			</script>
+		</header>
+		<p style="font-size: 3pt">&nbsp;</p>
+
+		<!-- Main Menu -->
+		<nav id="nav-main">
+			<div class="nav_bar">
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="index.html">Home</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="todo.html">Things To Do</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="ThingsDone.html">Things Done</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">My Blogs</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="blog_index.html">Blog Index</a>
+						<a href="Blogs.html">Blog Detail</a>
+						<a href="blogArchive.html">Blog Archive</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="img_gal.html">Image Gallery</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Calendar Menu</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="12month.html">12 Month Calendar</a>
+						<a href="Calendar.html">Web Calendar</a>
+						<a href="EasyCal.html">Easy UI Calendar</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Demo Pages</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="demo_one.html">Content Demo 1</a>
+						<a href="demo_two.html">Content Demo 2</a>
+						<a href="demo_three.html">Content Demo 3</a>
+						<a href="demo_four.html">Content Demo 4</a>
+						<a href="calage.html">Calculate Age Demo</a>
+						<a href="cssunits.html">Css Unit Demo</a>
+						<a href="Test.html">Other Tests</a>
+						<a href="Template.html">My Template</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="myproject.html">My project</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="login.html">Login Demo</a>
+						<a href="useful.html">Useful Links</a>
+						<a href="Imagemap.html">Image Map</a>
+						<a href="mouseover_demo.html">Mouse Over Demo</a>
+						<a href="myanigif.html">My Animated Banner</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/back-to-top.png"
+				alt="Top of Page"></button>
+
+		<main id="Sect_Main">
+			<div class="myp_bdr" id="paper">
+				<h2 class="centxt">Responsive Image Gallery</h2>
+
+				<h4 class="centxt">Resize the browser window to see the effect. <span class="note">Note:</span> These open in
+					a new Window</h4>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="images/img_5terre_wide.jpg">
+							<img src="images/img_5terre.jpg" alt="Cinque Terre" width="900" height="400">
+						</a>
+						<div class="desc">Island of Cinque Terre</div>
+					</div>
+				</div>
+
+
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="images/img_woods_wide.jpg">
+							<img src="images/img_woods.jpg" alt="Forest" width="900" height="400">
+						</a>
+						<div class="desc">Forest</div>
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="images/img_lights_wide.jpg">
+							<img src="images/img_lights.jpg" alt="Northern Lights" width="900" height="400">
+						</a>
+						<div class="desc">Northern Lights</div>
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="images/img_mountains_wide.jpg">
+							<img src="images/img_mountains.jpg" alt="Mountains" width="900" height="400">
+						</a>
+						<div class="desc">Mountain Valley</div>
+					</div>
+				</div>
+
+				<div class="clearfix"></div>
+
+				<div style="padding:6px;">
+					<p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than
+						700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images
+						side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+					<p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+				</div>
+			</div>
+			<!--Bottom Menu Goes here-->
+			<hr />
+			<span id="indbmenu">
+				<p class="centxt">
+					&nbsp;&nbsp;&nbsp;<a href="index.html">
+						<img src="img/hm.gif" alt="Home" title="Home" class="imgsize"> Home</a>
+					&nbsp;&nbsp;&nbsp;<a href="blog_index.html">Blog
+						Index</a>&nbsp;&nbsp;&nbsp;<a href="todo.html">To Do</a>&nbsp;&nbsp;&nbsp;<br />
+					<a href="myproject.html">My Project</a>&nbsp;&nbsp;&nbsp;
+					<a href="ThingsDone.html">Things Done</a>&nbsp;&nbsp;&nbsp;<a href="useful.html">Useful
+						Links</a>
+				</p>
+			</span>
+			<br />
+			<!-- Menu Ends -->
+		</main>
+		<script type="text/Javascript">
+		// Get the button
+		let mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () { scrollFunction() };
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+
+		<!-- Footer -->
+		<footer>
+			<time id="row1">
+			</time>
+			<br />
+			<time id="row2">
+			</time>
+			<script type="text/javascript">
+				updateClock();
+			</script>
+		</footer>
+	</body>
+
+</html>

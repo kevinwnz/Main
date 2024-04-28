@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Localhost - 12 Month Calendar</title>
+		<link rel="stylesheet" href="style/basic.css" />
+		<link rel="stylesheet" href="style/custom.css">
+		<script src="js/time.js"></script>
+		<style>
+			iframe {
+				margin: auto;
+				display: block;
+				height: 100vh;
+				width: 90%;
+			}
+
+			.grid-container {
+				display: grid;
+				grid-template-columns: auto auto auto;
+				justify-items: center;
+				padding: 5px;
+			}
+
+			.grid-item {
+				background-color: rgba(255, 255, 255, 0.8);
+				border: 1px solid rgba(0, 0, 0, 0.8);
+				padding: 5px;
+				font-size: 30px;
+				text-align: center;
+			}
+		</style>
+		<!--*-* Popup Window Script *-*-->
+		<script language="javascript">
+
+
+			var win = null;
+			function NewWindow(mypage, myname, w, h, scroll) {
+				LeftPosition = (screen.width) ? (screen.width - w) / 2 : 0;
+				TopPosition = (screen.height) ? (screen.height - h) / 2 : 0;
+				settings =
+					'height=' + h + ',width=' + w + ',top=' + TopPosition + ',left=' + LeftPosition + ',scrollbars=' + scroll + ',resizable'
+				win = window.open(mypage, myname, settings)
+			}
+
+		</script>
+
+	</head>
+
+	<body>
+		<header id="head" class="centxt">
+			<img class="himg threedtxtbox" src="img/lhproject_main.png" alt="Main Header" title="LOCALHOST" />
+
+			<script>
+				var str = document.title;
+				document.write("<h2>" + str);
+			</script>
+		</header>
+
+		<p style="font-size: 3pt">
+			&nbsp;
+		</p>
+
+		<!-- Main Menu -->
+		<nav id="nav-main">
+			<div class="nav_bar">
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="index.html">Home</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="todo.html">Things To Do</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="ThingsDone.html">Things Done</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">My Blogs</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="blog_index.html">Blog Index</a>
+						<a href="Blogs.html">Blog Detail</a>
+						<a href="blogArchive.html">Blog Archive</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="img_gal.html">Image Gallery</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Calendar Menu</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="12month.html">12 Month Calendar</a>
+						<a href="Calendar.html">Web Calendar</a>
+						<a href="EasyCal.html">Easy UI Calendar</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Demo Pages</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="demo_one.html">Content Demo 1</a>
+						<a href="demo_two.html">Content Demo 2</a>
+						<a href="demo_three.html">Content Demo 3</a>
+						<a href="demo_four.html">Content Demo 4</a>
+						<a href="calage.html">Calculate Age Demo</a>
+						<a href="cssunits.html">Css Unit Demo</a>
+						<a href="Test.html">Other Tests</a>
+						<a href="Template.html">My Template</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="myproject.html">My project</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="login.html">Login Demo</a>
+						<a href="useful.html">Useful Links</a>
+						<a href="Imagemap.html">Image Map</a>
+						<a href="mouseover_demo.html">Mouse Over Demo</a>
+						<a href="myanigif.html">My Animated Banner</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!--*** Top of Page Object ***-->
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/back-to-top.png"
+				alt="Top of Page"></button>
+
+		<main id="Sect_Main">
+			<div class="grid-container">
+				<!-- ***------------------------------------------ Jan ---------------------------------*** -->
+				<div class="grid-item">
+					<table>
+						<caption>
+							&nbsp;(1)&nbsp;<a href="pwin/c1.html"
+								onclick="NewWindow(this.href,'Jan','600','560','yes');return false">January
+								2024</a>
+						</caption>
+						<thead>
+							<tr>
+								<td>Mon</td>
+								<td>Tue</td>
+								<td>Wed</td>
+								<td>Thu</td>
+								<td>Fri</td>
+								<td>Sat</td>
+								<td>Sun</td>
+							</tr>
+						</thead>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+							<td>5</td>
+							<td>6</td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>9</td>
+							<td>10</td>
+							<td>11</td>
+							<td>12</td>
+							<td>13</td>
+							<td>14</td>
+						</tr>
+						<tr>
+							<td>15</td>
+							<td>16</td>
+							<td>17</td>
+							<td>18</td>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>
+						</tr>
+						<tr>
+							<td>22</td>
+							<td>23</td>
+							<td>24</td>
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+						</tr>
+						<tr>
+							<td>29</td>
+							<td>30</td>
+							<td>31</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+				</div>
+				<!-- ***------------------------------------------ Feb ---------------------------------*** -->
+				<div class="grid-item">
+					<table>
+						<caption>
+							&nbsp;(2)&nbsp;<a href="pwin/c2.html"
+								onclick="NewWindow(this.href,'Feb','600','560','no');return false">February
+								2024</a>
+						</caption>
+						<thead>
+							<tr>
+								<td>Mon</td>
+								<td>Tue</td>
+								<td>Wed</td>
+								<td>Thu</td>
+								<td>Fri</td>
+								<td>Sat</td>
+								<td>Sun</td>
+							</tr>
+						</thead>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>6</td>
+							<td>7</td>
+							<td>8</td>
+							<td>9</td>
+							<td>10</td>
+							<td>11</td>
+						</tr>
+						<tr>
+							<td>12</td>
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>
+							<td>16</td>
+							<td>17</td>
+							<td>18</td>
+						</tr>
+						<tr>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>
+							<td>22</td>
+							<td>23</td>
+							<td>24</td>
+							<td>25</td>
+						</tr>
+						<tr>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+				</div>
+				<!-- ***------------------------------------------ Mar ---------------------------------*** -->
+				<div class="grid-item">
+					<table>
+						<caption>
+							&nbsp;(3)&nbsp;<a href="pwin/c3.html" onclick="NewWindow(this.href,'Mar','600','560','yes');return false">March
+								2024</a>
+						</caption>
+						<thead>
+							<tr>
+								<td>Mon</td>
+								<td>Tue</td>
+								<td>Wed</td>
+								<td>Thu</td>
+								<td>Fri</td>
+								<td>Sat</td>
+								<td>Sun</td>
+							</tr>
+						</thead>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>5</td>
+							<td>6</td>
+							<td>7</td>
+							<td>8</td>
+							<td>9</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>11</td>
+							<td>12</td>
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>
+							<td>16</td>
+							<td>17</td>
+						</tr>
+						<tr>
+							<td>18</td>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>
+							<td>22</td>
+							<td>23</td>
+							<td>24</td>
+						</tr>
+						<tr>
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+							<td>30</td>
+							<td>31</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+				</div>
+				<!-- ***------------------------------------------ Apr ---------------------------------*** -->
+				<div class="grid-item">
+					<table>
+						<caption>
+							&nbsp;(4)&nbsp;<a href="pwin/c4.html" onclick="NewWindow(this.href,'Apr','600','560','no');return false">April 2024</a>
+						</caption>
+						<thead>
+							<tr>
+								<td>Mon</td>
+								<td>Tue</td>
+								<td>Wed</td>
+								<td>Thu</td>
+								<td>Fri</td>
+								<td>Sat</td>
+								<td>Sun</td>
+							</tr>
+						</thead>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+							<td>5</td>
+							<td>6</td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>9</td>
+							<td>10</td>
+							<td>11</td>
+							<td>12</td>
+							<td>13</td>
+							<td>14</td>
+						</tr>
+						<tr>
+							<td>15</td>
+							<td>16</td>
+							<td>17</td>
+							<td>18</td>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>
+						</tr>
+						<tr>
+							<td>22</td>
+							<td>23</td>
+							<td>24</td>
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+						</tr>
+						<tr>
+							<td>29</td>
+							<td>30</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+				</div>
+				<!-- ***------------------------------------------ May ---------------------------------*** -->
+				<div class="grid-item">
+					<table>
+						<caption>
+							&nbsp;(5)&nbsp;<a href="pwin/c5.html" onclick="NewWindow(this.href,'May','600','560','no');return false">May 2024</a>
+						</caption>
+						<thead>
+							<tr>
+								<td>Mon</td>
+								<td>Tue</td>
+								<td>Wed</td>
+								<td>Thu</td>
+								<td>Fri</td>
+								<td>Sat</td>
+								<td>Sun</td>
+							</tr>
+						</thead>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>7</td>
+							<td>8</td>
+							<td>9</td>
+							<td>10</td>
+							<td>11</td>
+							<td>12</td>
+						</tr>
+						<tr>
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>
+							<td>16</td>
+							<td>17</td>
+							<td>18</td>
+							<td>19</td>
+						</tr>
+						<tr>
+							<td>20</td>
+							<td>21</td>
+							<td>22</td>
+							<td>23</td>
+							<td>24</td>
+							<td>25</td>
+							<td>26</td>
+						</tr>
+						<tr>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+							<td>30</td>
+							<td>31</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+				</div>
+				<!-- ***------------------------------------------ Jun ---------------------------------*** -->
+				<div class="grid-item">
+					<table>
+						<caption>
+							&nbsp;(6)&nbsp;<a href="pwin/c6.html" onclick="NewWindow(this.href,'Jun','600','560','no');return false">June 2024</a>
+						</caption>
+						<thead>
+							<tr>
+								<td>Mon</td>
+								<td>Tue</td>
+								<td>Wed</td>
+								<td>Thu</td>
+								<td>Fri</td>
+								<td>Sat</td>
+								<td>Sun</td>
+							</tr>
+						</thead>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>1</td>
+							<td>2</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>4</td>
+							<td>5</td>
+							<td>6</td>
+							<td>7</td>
+							<td>8</td>
+							<td>9</td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>11</td>
+							<td>12</td>
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>
+							<td>16</td>
+						</tr>
+						<tr>
+							<td>17</td>
+							<td>18</td>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>
+							<td>22</td>
+							<td>23</td>
+						</tr>
+						<tr>
+							<td>24</td>
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+							<td>30</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+				</div>
+				<!-- ***------------------------------------------ Jul ---------------------------------*** -->
+				<div class="grid-item">
+					<table>
+						<caption>
+							&nbsp;(7)&nbsp;<a href="pwin/c7.html" onclick="NewWindow(this.href,'Jul','600','560','no');return false">July 2024</a>
+						</caption>
+						<thead>
+							<tr>
+								<td>Mon</td>
+								<td>Tue</td>
+								<td>Wed</td>
+								<td>Thu</td>
+								<td>Fri</td>
+								<td>Sat</td>
+								<td>Sun</td>
+							</tr>
+						</thead>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+							<td>5</td>
+							<td>6</td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>9</td>
+							<td>10</td>
+							<td>11</td>
+							<td>12</td>
+							<td>13</td>
+							<td>14</td>
+						</tr>
+						<tr>
+							<td>15</td>
+							<td>16</td>
+							<td>17</td>
+							<td>18</td>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>
+						</tr>
+						<tr>
+							<td>22</td>
+							<td>23</td>
+							<td>24</td>
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+						</tr>
+						<tr>
+							<td>29</td>
+							<td>30</td>
+							<td>31</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+				</div>
+				<!-- ***------------------------------------------ Aug ---------------------------------*** -->
+				<div class="grid-item">
+					<table>
+						<caption>
+							&nbsp;(8)&nbsp;<a href="pwin/c8.html" onclick="NewWindow(this.href,'Aug','600','560','no');return false">August 2024</a>
+						</caption>
+						<thead>
+							<tr>
+								<td>Mon</td>
+								<td>Tue</td>
+								<td>Wed</td>
+								<td>Thu</td>
+								<td>Fri</td>
+								<td>Sat</td>
+								<td>Sun</td>
+							</tr>
+						</thead>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>6</td>
+							<td>7</td>
+							<td>8</td>
+							<td>9</td>
+							<td>10</td>
+							<td>11</td>
+						</tr>
+						<tr>
+							<td>12</td>
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>
+							<td>16</td>
+							<td>17</td>
+							<td>18</td>
+						</tr>
+						<tr>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>
+							<td>22</td>
+							<td>23</td>
+							<td>24</td>
+							<td>25</td>
+						</tr>
+						<tr>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+							<td>30</td>
+							<td>31</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+				</div>
+				<!-- ***------------------------------------------ Sep ---------------------------------*** -->
+				<div class="grid-item">
+					<table>
+						<caption>
+							&nbsp;(9)&nbsp;<a href="pwin/c9.html" onclick="NewWindow(this.href,'Sep','600','560','no');return false">September
+								2024</a>
+						</caption>
+						<thead>
+							<tr>
+								<td>Mon</td>
+								<td>Tue</td>
+								<td>Wed</td>
+								<td>Thu</td>
+								<td>Fri</td>
+								<td>Sat</td>
+								<td>Sun</td>
+							</tr>
+						</thead>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>1</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+							<td>5</td>
+							<td>6</td>
+							<td>7</td>
+							<td>8</td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td>10</td>
+							<td>11</td>
+							<td>12</td>
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>
+						</tr>
+						<tr>
+							<td>16</td>
+							<td>17</td>
+							<td>18</td>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>
+							<td>22</td>
+						</tr>
+						<tr>
+							<td>23</td>
+							<td>24</td>
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+						</tr>
+						<tr>
+							<td>30</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+				</div>
+				<!-- ***------------------------------------------ Oct ---------------------------------*** -->
+				<div class="grid-item">
+					<table>
+						<caption>
+							&nbsp;(10)&nbsp;<a href="pwin/c10.html" onclick="NewWindow(this.href,'Oct','600','560','no');return false">October
+								2024</a>
+						</caption>
+						<thead>
+							<tr>
+								<td>Mon</td>
+								<td>Tue</td>
+								<td>Wed</td>
+								<td>Thu</td>
+								<td>Fri</td>
+								<td>Sat</td>
+								<td>Sun</td>
+							</tr>
+						</thead>
+						<tr>
+							<td>&nbsp;</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+							<td>5</td>
+							<td>6</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>8</td>
+							<td>9</td>
+							<td>10</td>
+							<td>11</td>
+							<td>12</td>
+							<td>13</td>
+						</tr>
+						<tr>
+							<td>14</td>
+							<td>15</td>
+							<td>16</td>
+							<td>17</td>
+							<td>18</td>
+							<td>19</td>
+							<td>20</td>
+						</tr>
+						<tr>
+							<td>21</td>
+							<td>22</td>
+							<td>23</td>
+							<td>24</td>
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+						</tr>
+						<tr>
+							<td>28</td>
+							<td>29</td>
+							<td>30</td>
+							<td>31</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+				</div>
+				<!-- ***------------------------------------------ Nov ---------------------------------*** -->
+				<div class="grid-item">
+					<table>
+						<caption>
+							&nbsp;(11)&nbsp;<a href="pwin/c11.html" onclick="NewWindow(this.href,'Nov','600','560','no');return false">November
+								2024</a>
+						</caption>
+						<thead>
+							<tr>
+								<td>Mon</td>
+								<td>Tue</td>
+								<td>Wed</td>
+								<td>Thu</td>
+								<td>Fri</td>
+								<td>Sat</td>
+								<td>Sun</td>
+							</tr>
+						</thead>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>5</td>
+							<td>6</td>
+							<td>7</td>
+							<td>8</td>
+							<td>9</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>11</td>
+							<td>12</td>
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>
+							<td>16</td>
+							<td>17</td>
+						</tr>
+						<tr>
+							<td>18</td>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>
+							<td>22</td>
+							<td>23</td>
+							<td>24</td>
+						</tr>
+						<tr>
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+							<td>30</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+				</div>
+				<!-- ***------------------------------------------ Dec ---------------------------------*** -->
+				<div class="grid-item">
+					<table>
+						<caption>
+							&nbsp;(12)&nbsp;<a href="pwin/c12.html" onclick="NewWindow(this.href,'Dec','600','560','no');return false">December
+								2024</a>
+						</caption>
+						<thead>
+							<tr>
+								<td>Mon</td>
+								<td>Tue</td>
+								<td>Wed</td>
+								<td>Thu</td>
+								<td>Fri</td>
+								<td>Sat</td>
+								<td>Sun</td>
+							</tr>
+						</thead>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>1</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+							<td>5</td>
+							<td>6</td>
+							<td>7</td>
+							<td>8</td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td>10</td>
+							<td>11</td>
+							<td>12</td>
+							<td>12</td>
+							<td>14</td>
+							<td>15</td>
+						</tr>
+						<tr>
+							<td>16</td>
+							<td>17</td>
+							<td>18</td>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>
+							<td>22</td>
+						</tr>
+						<tr>
+							<td>23</td>
+							<td>24</td>
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+						</tr>
+						<tr>
+							<td>30</td>
+							<td>31</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+				</div>
+
+			</div>
+
+			<!--Bottom Menu Goes here-->
+			<hr />
+			<br />
+			<span id="indbmenu">
+				<p class="centxt">
+					&nbsp;&nbsp;&nbsp;<a href="index.html">
+						<img src="img/hm.gif" alt="Home" title="Home" class="imgsize"> Home</a>
+					&nbsp;&nbsp;&nbsp;<a href="blog_index.html">Blog
+						Index</a>&nbsp;&nbsp;&nbsp;<a href="todo.html">To Do</a>&nbsp;&nbsp;&nbsp;<br />
+					<a href="myproject.html">My Project</a>&nbsp;&nbsp;&nbsp;
+					<a href="ThingsDone.html">Things Done</a>&nbsp;&nbsp;&nbsp;<a href="useful.html">Useful
+						Links</a>
+				</p>
+			</span>
+			<br />
+
+		</main>
+		<!--*** Top of Page script ***-->
+		<script type="text/Javascript">
+		// Get the button
+		let mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () { scrollFunction() };
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+
+		<!-- Footer -->
+		<footer>
+			<time id="row1">
+			</time>
+			<br />
+			<time id="row2">
+			</time>
+			<script type="text/javascript">
+				updateClock();
+			</script>
+		</footer>
+
+	</body>
+
+</html>

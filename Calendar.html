@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Localhost - Web Calendar</title>
+		<link rel="stylesheet" href="style/basic.css" />
+		<link rel="stylesheet" href="style/Table.css">
+		<link rel="stylesheet" href="style/Calendar.css">
+		<script src="js/time.js"></script>
+		<style>
+			span {
+				background-color: yellow;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header id="head" class="centxt">
+			<img class="himg threedtxtbox" src="img/lhproject_main.png" alt="Main Header" title="LOCALHOST" />
+
+			<script>
+				var str = document.title;
+				document.write("<h2>" + str);
+			</script>
+		</header>
+		<p style="font-size: 3pt">&nbsp;</p>
+
+		<!-- Main Menu -->
+		<nav id="nav-main">
+			<div class="nav_bar">
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="index.html">Home</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="todo.html">Things To Do</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="ThingsDone.html">Things Done</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">My Blogs</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="blog_index.html">Blog Index</a>
+						<a href="Blogs.html">Blog Detail</a>
+						<a href="blogArchive.html">Blog Archive</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="img_gal.html">Image Gallery</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Calendar Menu</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="12month.html">12 Month Calendar</a>
+						<a href="Calendar.html">Web Calendar</a>
+						<a href="EasyCal.html">Easy UI Calendar</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Demo Pages</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="demo_one.html">Content Demo 1</a>
+						<a href="demo_two.html">Content Demo 2</a>
+						<a href="demo_three.html">Content Demo 3</a>
+						<a href="demo_four.html">Content Demo 4</a>
+						<a href="calage.html">Calculate Age Demo</a>
+						<a href="cssunits.html">Css Unit Demo</a>
+						<a href="Test.html">Other Tests</a>
+						<a href="Template.html">My Template</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="myproject.html">My project</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="login.html">Login Demo</a>
+						<a href="useful.html">Useful Links</a>
+						<a href="Imagemap.html">Image Map</a>
+						<a href="mouseover_demo.html">Mouse Over Demo</a>
+						<a href="myanigif.html">My Animated Banner</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<main id="Sect_Main">
+			<button onclick="topFunction()" id="myBtn" title="Go to top">
+				<img src="img/back-to-top.png" alt="Top of Page" />
+			</button>
+
+			<div class="cheadv centxt" id="stat_Cal">
+				Monthly Static Calendar Demo (I intend to update Monthly)
+			</div>
+			<br />
+			<br />
+			<br />
+			<table bgcolor="lightgrey" align="center" cellspacing="21" cellpadding="21">
+				<caption align="top" style="background-color: silver; font-size: 18pt; font-weight: bolder;">
+					April 2024 <span>(Current)</span>
+				</caption>
+				<thead>
+					<tr>
+						<td class="chead">Monday</td>
+						<td class="chead">Tuesday</td>
+						<td class="chead">Wednesday</td>
+						<td class="chead">Thursday</td>
+						<td class="chead">Friday</td>
+						<td class="chead">Saturday</td>
+						<td class="chead">Sunday</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><span>1<br />Easter Monday</span></td>
+						<td>2</td>
+						<td>3</td>
+						<td>4</td>
+						<td>5</td>
+						<td>6</td>
+						<td>7</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>9</td>
+						<td>10</td>
+						<td>11</td>
+						<td>12</td>
+						<td>13</td>
+						<td>14</td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>16</td>
+						<td>17</td>
+						<td>18</td>
+						<td>19</td>
+						<td>20</td>
+						<td>21</td>
+					</tr>
+					<tr>
+						<td>22</td>
+						<td>23</td>
+						<td>24</td>
+						<td><span>25<br />Anzac Day</span></td>
+						<td>26</td>
+						<td>27</td>
+						<td>28</td>
+					</tr>
+					<tr>
+						<td>29</td>
+						<td>30</td>
+						<td>31</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+			<br />
+      <br />
+			<table bgcolor="lightgrey" align="center" cellspacing="21" cellpadding="21">
+				<caption align="top" style="background-color: silver; font-size: 18pt; font-weight: bolder;">
+					May 2024 <span class="NewM">(Next Month)</span>
+				</caption>
+				<thead>
+					<tr>
+						<td class="chead">Monday</td>
+						<td class="chead">Tuesday</td>
+						<td class="chead">Wednesday</td>
+						<td class="chead">Thursday</td>
+						<td class="chead">Friday</td>
+						<td class="chead">Saturday</td>
+						<td class="chead">Sunday</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="NewM"></td>
+						<td class="NewM"></td>
+						<td class="NewM"></td>
+						<td class="NewM">1</td>
+						<td class="NewM">2</td>
+						<td class="NewM">2</td>
+						<td class="NewM">4</td>
+					</tr>
+					<tr>
+						<td class="NewM">5</td>
+						<td class="NewM">6</td>
+						<td class="NewM">7</td>
+						<td class="NewM">8</td>
+						<td class="NewM">9</td>
+						<td class="NewM">10</td>
+						<td class="NewM">11</td>
+					</tr>
+					<tr>
+						<td class="NewM">12</td>
+						<td class="NewM">13</td>
+						<td class="NewM">14</td>
+						<td class="NewM">15</td>
+						<td class="NewM">16</td>
+						<td class="NewM">17</td>
+						<td class="NewM">18</td>
+					</tr>
+					<tr>
+						<td class="NewM">19</td>
+						<td class="NewM">20</td>
+						<td class="NewM">21</td>
+						<td class="NewM">22</td>
+						<td class="NewM">23</td>
+						<td class="NewM">24</td>
+						<td class="NewM">25</td>
+					</tr>
+					<tr>
+						<td class="NewM">26</td>
+						<td class="NewM">27</td>
+						<td class="NewM">28</td>
+						<td class="NewM">29</td>
+						<td class="NewM">30</td>
+						<td class="NewM">31</td>
+						<td class="NewM"></td>
+					</tr>
+				</tbody>
+			</table>
+      <br />
+      <br />
+			<p class="centxt">
+				<img style="box-shadow: 0px 0px 10px 0px black" class="imgsize" src="img/lhbanner.gif" alt="LocalHost"
+					title="LH Banner" />
+			</p>
+			<br />
+			<!--Bottom Menu Goes here-->
+			<hr />
+			<span id="indbmenu">
+				<p class="centxt">&nbsp;&nbsp;&nbsp;<a href="index.html">
+						<img src="img/hm.gif" alt="Home" title="Home" class="imgsize"> Home</a>
+					&nbsp;&nbsp;&nbsp;<a href="blog_index.html">Blog
+						Index</a>&nbsp;&nbsp;&nbsp;<a href="todo.html">To Do</a>&nbsp;&nbsp;&nbsp;<br />
+					<a href="myproject.html">My Project</a>&nbsp;&nbsp;&nbsp;
+					<a href="ThingsDone.html">Things Done</a>&nbsp;&nbsp;&nbsp;<a href="useful.html">Useful
+						Links</a>
+				</p>
+			</span>
+			<br />
+			<!-- Menu Ends -->
+		</main>
+		<script>
+			// Get the button
+			let mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function () {
+				scrollFunction();
+			};
+
+			function scrollFunction() {
+				if (
+					document.body.scrollTop > 20 ||
+					document.documentElement.scrollTop > 20
+				) {
+					mybutton.style.display = "block";
+				} else {
+					mybutton.style.display = "none";
+				}
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
+		<!-- Footer -->
+		<footer>
+			<time id="row1">
+			</time>
+			<br />
+			<time id="row2">
+			</time>
+			<script type="text/javascript">
+				updateClock();
+			</script>
+		</footer>
+	</body>
+
+</html>

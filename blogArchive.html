@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Localhost - Blog Archive</title>
+		<link rel="stylesheet" href="style/basic.css" />
+		<link rel="stylesheet" href="style/custom.css">
+		<link rel="stylesheet" href="style/blog.css">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<script src="js/time.js"></script>
+		<style>
+			.button {
+				display: inline-block;
+				padding: 10px 15px;
+				font-size: 10pt;
+				cursor: pointer;
+				text-align: center;
+				text-decoration: none;
+				outline: none;
+				color: White;
+				font-weight: bold;
+				background-color: Blue;
+				border: none;
+				border-radius: 15px;
+				box-shadow: 0 4.5px 4px #999;
+			}
+
+			.button:hover {
+				background-color: #ffffdd;
+				color: red;
+				text-decoration: underline overline;
+			}
+
+			.button:active {
+				background-color: #ffff44;
+				box-shadow: 0 5px #666;
+				transform: translateY(4px);
+			}
+
+			li {
+				font-size: 14pt;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header id="head" class="centxt">
+			<img class="himg threedtxtbox" src="img/lhproject_main.png" alt="Main Header" title="LOCALHOST" />
+
+			<script>
+				var str = document.title;
+				document.write("<h2>" + str);
+			</script>
+		</header>
+
+		<p style="font-size: 3pt">
+			&nbsp;
+		</p>
+
+		<!-- Main Menu -->
+		<nav id="nav-main">
+			<div class="nav_bar">
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="index.html">Home</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="todo.html">Things To Do</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="ThingsDone.html">Things Done</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">My Blogs</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="blog_index.html">Blog Index</a>
+						<a href="Blogs.html">Blog Detail</a>
+						<a href="blogArchive.html">Blog Archive</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="img_gal.html">Image Gallery</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Calendar Menu</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="12month.html">12 Month Calendar</a>
+						<a href="Calendar.html">Web Calendar</a>
+						<a href="EasyCal.html">Easy UI Calendar</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Demo Pages</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="demo_one.html">Content Demo 1</a>
+						<a href="demo_two.html">Content Demo 2</a>
+						<a href="demo_three.html">Content Demo 3</a>
+						<a href="demo_four.html">Content Demo 4</a>
+						<a href="calage.html">Calculate Age Demo</a>
+						<a href="cssunits.html">Css Unit Demo</a>
+						<a href="Test.html">Other Tests</a>
+						<a href="Template.html">My Template</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="myproject.html">My project</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="login.html">Login Demo</a>
+						<a href="useful.html">Useful Links</a>
+						<a href="Imagemap.html">Image Map</a>
+						<a href="mouseover_demo.html">Mouse Over Demo</a>
+						<a href="myanigif.html">My Animated Banner</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!--*** Top of Page Object ***-->
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/back-to-top.png"
+				alt="Top of Page"></button>
+
+		<main id="Sect_Main">
+			<br />
+			<!--Blog Index Entries for 2021 below-->
+			<hr />
+			<h3 class="centxt">
+				Blog Entries for 2021 are below
+			</h3>
+			<hr />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.1 for 10 March 2021
+				</h3>
+				<h4 class="B_index">
+					Approx Start Date of Website
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt01'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.2 for 16,17 March 2021
+				</h3>
+				<h4 class="B_index">
+					Continue With Development
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt02'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.3 for 1,2 April 2021
+				</h3>
+				<h4 class="B_index">
+					Create Single Column Page / What needs to be updated
+					with new pages
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt03'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.4 for 3 April 2021
+				</h3>
+				<h4 class="B_index">
+					Create a Test page and populate some tests
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt04'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.5 for 9 April 2021
+				</h3>
+				<h4 class="B_index">
+					Testing formatting of text on page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt05'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.6 for 10 April 2021
+				</h3>
+				<h4 class="B_index">
+					Re-Orginise Website (Start)
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt06'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.7 for 11 and 12th April 2021
+				</h3>
+				<h4 class="B_index">
+					Continue Re-organising Website
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt07'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.8 for 13, 14, 15 April 2021
+				</h3>
+				<h4 class="B_index">
+					Format first version of Blog page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt08'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.9 for 10 June 2021
+				</h3>
+				<h4 class="B_index">
+					Fix anchor links
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt09'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+
+			<hr />
+			<h3 class="centxt">
+				Blog Index Entries for 2022 below
+			</h3>
+			<hr />
+			<!--2022 Index entries follow below-->
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.10 for 9 July 2022
+				</h3>
+				<h4 class="B_index">
+					Move Website from Tablet to New Machine
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt10'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.11 for 10 July 2022
+				</h3>
+				<h4 class="B_index">
+					Work On Home Page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt11'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.12 for 21 July 2022
+				</h3>
+				<h4 class="B_index">
+					Get the Title of the page from the title tag using a
+					Javascript and display it in the top of the web page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt12'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.13 for 22 July 2022
+				</h3>
+				<h4 class="B_index">
+					Fix Issues, Link Color, Style Page Name
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt13'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.14 for 4 December 2022
+				</h3>
+				<h4 class="B_index">
+					Work on Menu
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt14'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.15 for 5 / 6 December 2022
+				</h3>
+				<h4 class="B_index">
+					Add Localhost Banner to Demo page within table
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt15'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.16 for 8 - 10 December 2022
+				</h3>
+				<h4 class="B_index">
+					Add To Do page Re-format and copy content, Change Style
+					sheet
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt16'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.17 for 11 - 13 December 2022
+				</h3>
+				<h4 class="B_index">
+					Continue to make changes To-Do pages, Re-format page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt17'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.18 for 15 December 2022
+				</h3>
+				<h4 class="B_index">
+					Clean up styles on To-do and tables, Update Blogs
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='#Btxt18'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+
+			<hr />
+			<!-- Archived Blogs will go below -->
+			<h3 class="centxt">
+				Blogs from 2021
+			</h3>
+			<hr />
+			<article class="blog">
+				<h3 id="Btxt01">
+					This Blog post no.1 for 10 March 2021
+				</h3>
+				<h4>
+					Approx Start Date of Website
+				</h4>
+				<h2>
+					Approx start of website about
+				</h2>
+				<p>
+					The object of the project was to create a website using VS Code and learn
+					how VS code could aid
+					development also use Git-hub as backup and source control.
+				</p>
+				<hr />
+			</article>
+			<br />
+			<article class="blog">
+				<h3 id="Btxt03">
+					This Blog post no.3 for 1,2 April 2021
+				</h3>
+				<h4>
+					Create Single Column Page / What needs to be updated with new pages
+				</h4>
+				<p>
+					Have been working on Single Column page for site, have not found a easy
+					way to update menu links
+				</p>
+				<p>
+					When creating new pages there are several areas that need to be updated
+				</p>
+				<ul class="bultype">
+					<li>Page Title</li>
+					<li>Menu Links</li>
+					<li>Page Title in header of pages</li>
+				</ul>
+				<p>
+					<span class="note" style="color: red; font-weight: bolder;">
+						Note:
+					</span>
+					&nbsp;I am displaying the Page Name using
+					a small Javascript that gets the title from the head tag and displays it in
+					the top of my page.
+				</p>
+				<p>
+					Now I have a Home page and two sub pages. Now I want try a few things
+				</p>
+				<hr />
+			</article>
+			<br />
+			<article class="blog">
+				<h3 id="Btxt04">
+					This Blog post no.4 for 3 April 2021
+				</h3>
+				<h4>
+					Create a Test page and populate some tests
+				</h4>
+				<br />
+				<ul>
+					<li>
+						First task was to create a 3d - box using 'CSS' Putting a image on the box above makes the box look more
+						realistic
+					</li>
+					<li>
+						After creating shadow on text using css command, have made alterations
+						to Shadow text on
+						home
+						page making the shadow work better and altering the text to be shadowed</li>
+					<li>
+						found a Javascript that does a typewriter effect when a button is
+						pressed
+					</li>
+				</ul>
+				<p>
+					<a href="demo_one.html">
+						See these examples on my test Page
+					</a>
+				</p>
+				<hr />
+			</article>
+			<br />
+			<article class="blog">
+				<h3 id="Btxt05">
+					This Blog post no.5 for 9 April 2021
+				</h3>
+				<h4>
+					Testing formatting of text on page
+				</h4>
+				<p>
+					One of the things I am testing is writing page text without 'P' tags to see
+					how the formatting goes.
+					<br />
+					Made alterations to image on Home page putting auto sizing on width and
+					height using 'css' class
+				</p>
+				<hr />
+			</article>
+			<br />
+			<article class="blog">
+				<h3 id="Btxt06">
+					This Blog post no.6 for 10 April 2021
+				</h3>
+				<h4>
+					Re-Orginise Website (Start)
+				</h4>
+				<p>
+					I am the process of Re-organising This Webpage so I can Setup links to
+					Blogs of What I have done,
+					and put the test content to other pages.&nbsp;
+					Re-organise Website, rename pages Aim is to link to blogs and experiments</p>
+				<hr />
+			</article>
+			<br />
+			<article class="blog">
+				<h3 id="Btxt07">
+					This Blog post no.7 for 11 and 12th April 2021
+				</h3>
+				<h4>
+					Continue Re-organising Website
+				</h4>
+				<p>
+					continue re-organising the website - Get links to blog id working
+				</p>
+				<hr />
+			</article>
+			<br />
+			<article class="blog">
+				<h3 id="Btxt08">
+					This Blog post no.8 for 13, 14, 15 April 2021
+				</h3>
+				<h4>
+					Format first version of Blog page
+				</h4>
+				<p>
+					Each of the blogs are in their own 'Article' tag, have been linking the
+					Blog Index to the various
+					blogs, making adjustments to the blogs themselves have added a top of page
+					image button at the
+					bottom of this page
+				</p>
+				<hr>
+			</article>
+			<br />
+			<article class="blog">
+				<h3 id="Btxt09">
+					This Blog post no.9 for 10 June 2021
+				</h3>
+				<h4>
+					Fix anchor links
+				</h4>
+				<p>
+					Update Blog Index fix some mistakes set visited colour on links <br />
+					Make footer deeper but have not yet done all pages
+				</p>
+				<hr>
+			</article>
+			<hr />
+			<h3 class="centxt">
+				Blogs from 2022
+			</h3>
+			<hr />
+			<article class="blog">
+				<h3 id="Btxt10">
+					This Blog post no.10 for 9 July 2022
+				</h3>
+				<h4>
+					Move Website from Tablet to New Machine
+				</h4>
+				<br />
+				<ul class="bultype">
+					<li>
+						Install VS Code on tablet
+					</li>
+					<li>
+						install extensions for .html
+					</li>
+					<li>
+						Change Blog list to Blog Index
+					</li>
+					<li>
+						Finish index at top of this page
+					</li>
+					<li>
+						Play around with class for header image turning it into a 3D box
+					</li>
+					<li>
+						Write this blog and do links
+					</li>
+				</ul>
+				<hr />
+			</article>
+			<br />
+			<article class="blog">
+				<h3 id="Btxt11">
+					This Blog post no.11 for 10 July 2022
+				</h3>
+				<h4>
+					Work On Home Page
+				</h4>
+				<p>
+					Done a lot of work on Home - Page, continued to tidy up done list on
+					Page. Changed color of body
+					background on all pages put a link to blog index at bottom of main page.
+					highlighted note. played around
+					with header image
+				</p>
+				<hr />
+			</article>
+			<br />
+			<article class="blog">
+				<h3 id="Btxt12">
+					This Blog post no.12 for 21 July 2022
+				</h3>
+				<h4>
+					Get the Title of the page from the title tag using a Javascript and
+					display it in the top of the web page
+				</h4>
+				<p>
+					I wanted to get the content of the title element, and display it in a
+					header tag, it took a lot
+					of searching to find out how to do. I found a javascript that would do the
+					job, I now only have to
+					set the title element and it will show at the top of the page
+				</p>
+				<hr />
+			</article>
+			<br />
+			<article class="blog">
+				<h3 id="Btxt13">
+					This Blog post no.13 for 22 July 2022
+				</h3>
+				<h4>
+					Fix Issues, Link Color, Style Page Name
+				</h4>
+				<p>
+					Fix some issues
+					<br />
+					Change the link colour in the body
+					<br />
+					style the Page name got from the title tag
+				</p>
+				<hr />
+			</article>
+			<br />
+			<article class="blog">
+				<h3 id="Btxt14">
+					This Blog post no.14 for 4 December 2022
+				</h3>
+				<h4>
+					Work on Menu
+				</h4>
+				<p>
+					Change the style of the menu
+					<br />
+					Change colours center the menu
+					<br />
+					update Blog
+				</p>
+				<hr />
+			</article>
+			<br />
+			<article class="blog">
+				<h3 id="Btxt15">
+					This Blog post no.15 for 5 / 6 December 2022
+				</h3>
+				<h4>
+					Add Localhost Banner to Demo page within table
+				</h4>
+				<p>
+					I decided that I needed to display my custom animated gif graphics so I
+					made a table to put all my 'localhost' graphics into. I also did something
+					I had not done for while
+					that was merge two table cells into one, which I had look up how to do. I
+					have also updated
+					the blog list page so I can fit more blog entries.
+					<br />
+					Add To Do To page to my website.
+				</p>
+				<hr />
+			</article>
+			<br />
+			<article class="blog">
+				<h3 id="Btxt16">
+					This Blog post no.16 for 8 - 10 December 2022
+				</h3>
+				<h4>
+					Add To Do page Re-format and copy content, Change Style sheet
+				</h4>
+				<p>
+					I have been making a lot of changes over the last few days as well as
+					adding a 'to-do' page I
+					have completely reformatted the tags and have copied the content off the
+					old pages. This has
+					meant changing the style sheet as well. the changes I have made has meant I
+					have had to update
+					other pages such as this blog page to get it to display correctly. I still
+					have a lot of work to
+					do on the pages before I am satisfied everything is working properly.
+				</p>
+				<hr />
+			</article>
+			<br />
+			<article class="blog">
+				<h3 id="Btxt17" title="11 - 13 December 2022">
+					This is Blog post no.17 for 11 - 13 December 2022
+				</h3>
+				<h4>
+					Continue to make changes To-Do pages, Re-format page
+				</h4>
+				<p>
+					I have made big changes to how the 'Todo page' works by putting a section
+					in the middle of page where
+					the page is divided up into left and right sections. this so i can have
+					things to do on the left and
+					completed items on the right. in setting up this I found that some of my
+					other pages did not work
+					correctly
+					<br />
+					so had to modify them so the now work. I am just finishing on
+					this page so i can start on
+					a new project on this website.
+				</p>
+				<hr />
+			</article>
+			<br />
+			<article class="blog">
+				<h3 id="Btxt18">
+					This Blog post no.18 for 15 December 2022
+				</h3>
+				<h4>
+					Clean up styles on To-do and tables, Update Blogs
+				</h4>
+				<p>
+					Update Blogs Update 'To Do' clean up style and tables
+				</p>
+				<hr />
+			</article>
+			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<!-- End of 2022 Entries -->
+<hr />
+			<!--Bottom Menu Goes here-->
+			<span id="indbmenu">
+				<p class="centxt">
+					&nbsp;&nbsp;&nbsp;<a href="index.html">
+						<img src="img/hm.gif" alt="Home" title="Home" class="imgsize"> Home</a>
+					&nbsp;&nbsp;&nbsp;<a href="blog_index.html">Blog
+						Index</a>&nbsp;&nbsp;&nbsp;<a href="todo.html">To Do</a>&nbsp;&nbsp;&nbsp;<br />
+					<a href="myproject.html">My Project</a>&nbsp;&nbsp;&nbsp;
+					<a href="ThingsDone.html">Things Done</a>&nbsp;&nbsp;&nbsp;<a href="useful.html">Useful
+						Links</a>
+				</p>
+			</span>
+			<br />
+
+		</main>
+		<!--*** Top of Page script ***-->
+		<script type="text/Javascript">
+		// Get the button
+		let mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () { scrollFunction() };
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+
+		<!-- Footer -->
+		<footer>
+			<time id="row1">
+			</time>
+			<br />
+			<time id="row2">
+			</time>
+			<script type="text/javascript">
+				updateClock();
+			</script>
+		</footer>
+
+	</body>
+
+</html>

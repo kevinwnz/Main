@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Calendar</title>
+  <!--EasyUI styles-->
+  <link rel="stylesheet" type="text/css" href="style/themes/default/easyui.css">
+  <link rel="stylesheet" type="text/css" href="style/themes/icon.css">
+  <link rel="stylesheet" type="text/css" href="style/demo/demo.css">
+
+  <!--jQuery library -->
+  <script type="text/javascript" src="js/jquery-3.6.4.min.js">
+  </script>
+
+  <!--EasyUI library  -->
+  <script type="text/javascript" src="JS/jquery.easyui.min.js">
+  </script>
+  <style>
+    .centr {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Choose First Day of Week</h2>
+  <div style="margin:50px 0;">
+    <select onchange="$('#cc').calendar({firstDay:this.value})">
+      <option value="0">Sunday</option>
+      <option value="1">Monday</option>
+      <option value="2">Tuesday</option>
+      <option value="3">Wednesday</option>
+      <option value="4">Thursday</option>
+      <option value="5">Friday</option>
+      <option value="6">Saturday</option>
+    </select>
+  </div>
+  <div id="cc" class="easyui-calendar centr" style="width:550px;height:550px;"></div>
+</body>
+
+</html>

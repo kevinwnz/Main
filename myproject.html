@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Localhost - My Project</title>
+    <link rel="stylesheet" href="style/basic.css" />
+    <link rel="stylesheet" href="style/custom.css">
+    <link rel="stylesheet" href="style/Table.css">
+    <script src="js/time.js"></script>
+    <style>
+      iframe {
+        margin: auto;
+        display: block;
+        height: 53vh;
+        width: 90%;
+      }
+
+      .test {
+        display: block;
+        margin: auto;
+        width: 20%;
+      }
+
+      body {
+        font-size: larger;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="head" class="centxt">
+      <img class="himg threedtxtbox" src="img/lhproject_main.png" alt="Main Header" title="LOCALHOST" />
+
+      <script>
+        var str = document.title;
+        document.write("<h2>" + str);
+      </script>
+    </header>
+
+    <p style="font-size: 3pt">
+      &nbsp;
+    </p>
+
+    <!-- Main Menu -->
+		<nav id="nav-main">
+			<div class="nav_bar">
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="index.html">Home</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="todo.html">Things To Do</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="ThingsDone.html">Things Done</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">My Blogs</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="blog_index.html">Blog Index</a>
+						<a href="Blogs.html">Blog Detail</a>
+						<a href="blogArchive.html">Blog Archive</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="img_gal.html">Image Gallery</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Calendar Menu</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="12month.html">12 Month Calendar</a>
+						<a href="Calendar.html">Web Calendar</a>
+						<a href="EasyCal.html">Easy UI Calendar</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Demo Pages</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="demo_one.html">Content Demo 1</a>
+						<a href="demo_two.html">Content Demo 2</a>
+						<a href="demo_three.html">Content Demo 3</a>
+						<a href="demo_four.html">Content Demo 4</a>
+						<a href="calage.html">Calculate Age Demo</a>
+						<a href="cssunits.html">Css Unit Demo</a>
+						<a href="Test.html">Other Tests</a>
+						<a href="Template.html">My Template</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="myproject.html">My project</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="login.html">Login Demo</a>
+						<a href="useful.html">Useful Links</a>
+						<a href="Imagemap.html">Image Map</a>
+						<a href="mouseover_demo.html">Mouse Over Demo</a>
+						<a href="myanigif.html">My Animated Banner</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+    <!--*** Top of Page Object ***-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/back-to-top.png"
+        alt="Top of Page"></button>
+
+    <main id="Sect_Main">
+      <p>&nbsp;</p>
+      <div class="myp_bdr test" style="background-color: white;">
+        <h2 class="centxt">
+          My project Index
+        </h2>
+
+        <br />
+        <p class="centxt">
+          <a href="#myp05">
+            <img src="img/about_up.png" alt="About Project" class="imgsize" onmouseover="this.src='img/about_over.png'"
+              onmouseout="this.src='img/about_up.png'">
+          </a>
+        </p>
+        <p style="font-size: 2pt;">&nbsp;</p>
+        <p class="centxt">
+          <a href="#myp10">
+            <img src="img/code_up.png" alt="Code" class="imgsize" onmouseover="this.src='img/code_over.png'"
+              onmouseout="this.src='img/code_up.png'">
+          </a>
+        </p>
+        <p style="font-size: 2pt;">&nbsp;</p>
+        <p class="centxt">
+          <a href="#myp15">
+            <img src="img/calc_up.png" alt="Calc Demo" class="imgsize" onmouseover="this.src='img/calc_over.png'"
+              onmouseout="this.src='img/calc_up.png'">
+          </a>
+        </p>
+        <p style="font-size: 2pt;">&nbsp;</p>
+        <p class="centxt">
+          <a href="#myp20">
+            <img src="img/eye_up.png" alt="Move Eyes" class="imgsize" onmouseover="this.src='img/eye_over.png'"
+              onmouseout="this.src='img/eye_up.png'">
+          </a>
+        </p>
+        <p style="font-size: 2pt;">&nbsp;</p>
+        <p class="centxt">
+          <a href="#myp25">
+            <img src="img/imgplaceh_up.png" alt="Image Place holder" class="imgsize"
+              onmouseover="this.src='img/imgplaceh_over.png'" onmouseout="this.src='img/imgplaceh_up.png'">
+          </a>
+        </p>
+        <p style="font-size: 2pt;">&nbsp;</p>
+        <p class="centxt">
+          <a href="#myp30">
+            <img src="img/iframe_up.png" alt="Iframes" class="imgsize" onmouseover="this.src='img/iframe_over.png'"
+              onmouseout="this.src='img/iframe_up.png'">
+          </a>
+        </p>
+        <p style="font-size: 2pt;">&nbsp;</p>
+        <p class="centxt">
+          <a href="#myp35">
+            <img src="img/animate_up.png" alt="Animated Banner" class="imgsize"
+              onmouseover="this.src='img/animate_over.png'" onmouseout="this.src='img/animate_up.png'">
+          </a>
+        </p>
+        <p style="font-size: 2pt;">&nbsp;</p>
+        <p class="centxt">
+          <a href="#myp40">
+            <img src="img/javascript_up.png" alt="Javascripts on Website" class="imgsize"
+              onmouseover="this.src='img/javascript_over.png'" onmouseout="this.src='img/javascript_up.png'">
+          </a>
+        </p>
+        <p style="font-size: 2pt;">&nbsp;</p>
+        <p class="centxt">
+          <a href="#myp45">
+            <img src="img/rss_up.png" alt="RSS Project" class="imgsize" onmouseover="this.src='img/rss_over.png'"
+              onmouseout="this.src='img/rss_up.png'">
+          </a>
+        </p>
+        <p style="font-size: 2pt;">&nbsp;</p>
+        <p class="centxt">
+          <a href="#myp50">
+            <img src="img/blog_up.png" alt="Blog Index Changes" class="imgsize"
+              onmouseover="this.src='img/blog_over.png'" onmouseout="this.src='img/blog_up.png'">
+          </a>
+        </p>
+        <p style="font-size: 2pt;">&nbsp;</p>
+        <p class="centxt">
+          <a href="#myp55">
+            <img src="img/vscode_up.png" alt="Found in VSCode" class="imgsize"
+              onmouseover="this.src='img/vscode_over.png'" onmouseout="this.src='img/vscode_up.png'">
+          </a>
+        </p>
+        <p style="font-size: 2pt;">&nbsp;</p>
+        <p class="centxt">
+          <a href="#myp60">
+            <img src="img/savefrmtxt_up.png" alt="Save Form Text" class="imgsize"
+              onmouseover="this.src='img/savefrmtxt_over.png'" onmouseout="this.src='img/savefrmtxt_up.png'">
+          </a>
+        </p>
+        <p style="font-size: 2pt;">&nbsp;</p>
+        <p class="centxt">
+          <a href="#myp65">
+            <img src="img/showebcode_up.png" alt="Show Web Code" class="imgsize"
+              onmouseover="this.src='img/showebcode_over.png'" onmouseout="this.src='img/showebcode_up.png'">
+          </a>
+        </p>
+        <p style="font-size: 2pt;">&nbsp;</p>
+      <p class="centxt">
+          <a href="#myp66">
+            <img src="img/fakelogin_up.png" alt="Fake Login Demo" class="imgsize" onmouseover="this.src='img/fakelogin_over.png'"
+              onmouseout="this.src='img/fakelogin_up.png'">
+          </a>
+        </p>    
+        <p style="font-size: 2pt;">&nbsp;</p>
+        <p class="centxt">
+          <a href="#myp67">
+            <img src="img/mouseovr_up.png" alt="Mouseover Demo" class="imgsize"
+              onmouseover="this.src='img/mouseovr_over.png'" onmouseout="this.src='img/mouseovr_up.png'">
+          </a>
+        </p> 
+        <p style="font-size: 2pt;">&nbsp;</p>
+        <p class="centxt">
+          <a href="#myp68">
+            <img src="img/project_up.png" alt="Project Update" class="imgsize"
+              onmouseover="this.src='img/project_over.png'" onmouseout="this.src='img/project_up.png'">
+          </a>
+        </p>
+        <p style="font-size: 2pt;">&nbsp;</p>
+        <p class="centxt">
+          <a href="#myp69"><img src="img/blog_num_up.png" class="imgsize" alt="Blog Num" onmouseover="this.src='img/blog_num_over.png'" onmouseout="this.src='img/blog_num_up.png'" /></a>
+        </p>
+        <br />
+      </div>
+      <br />
+      <article class="mypro">
+        <h3 id="myp05" class="centxt">About My Project</h3>
+
+        <h4>I started this project to ...</h4>
+        <ul class="bultype" style="list-style-image: url(img/li_blue.gif);">
+          <li>Create pages with Visual Studio Code</li>
+          <li>Play with HTML 5</li>
+          <li>object is to see what I can do with this editor</li>
+          <li>I am no longer using 'Git-Hub' </li>
+        </ul>
+        <h4>
+          I am using 'Loacalhost' to access my test website through an local
+          instance of IIS on my computer. <br />
+          I am using a style stylesheet to style the website, example such as
+          H3, navigation and other things. <br />
+          I have done a new menu system and made it live. <br />
+          I am always making changes to the pages. <br />
+          I am also playing with Git-Hub to hold a backup of the website, I
+          recently got Git-Hub working with VS Code,
+          <br />I Had
+          Git-Hub working on other computers and have just got it working again.
+          <br />I have also downloaded and
+          setup the desktop version of Git-Hub
+          I can use this to view what I have up uploaded without have to go on
+          to the Git-Hub website. <br /> Since I got my computer back from Repair I have decided to get rid of
+          'Git-Hub'
+          and just
+          use the backup on 'One Drive'<br /><br />
+        </h4>
+        <h3>
+          Text from my Home page.
+        </h3><br />
+        <h4>
+          I ended up putting the Navigation element under the header section. I
+          have Changed the <span style="color: blue" title="H3">H3</span> tag to put
+          padding top and bottom. Due to privacy concerns <br /> I have removed the
+          About Me menu from the website and put into a secure zip file.
+          <br /> Also in a recent update I created a <span style="text-decoration: line-through;">Archive</span> Things
+          Done page where I can put things done
+          on site. <br /><span class="note">Note:</span> the information displayed in the Page title comes
+          from a script
+          that reads
+          the title tag in the head of the web page and it is styled to an H2 tag <br /> with yellowish
+          background with
+          blue writing, it is Also
+          done so it looks like a it is in a 3d box. <br />
+          In the future I intend to get rid of the whitespace on the left and right side of the page and use
+          the intire width of the screen.
+        </h4>
+        <h4>
+          I am using the bottom half of the Home page to put news about recently added content
+        </h4>
+        <br />
+        <p class="centxt"><img style="box-shadow: 0px 0px 10px 0px black;" class="imgsize" src="img/lhbanner.gif"
+            alt="LocalHost" title="LH Banner"></p>
+        <br />
+        <h4>
+          A bit about the image above: when I had the idea of the image I was developing in (.aspx) but I dont
+          remember the program I used to create the animation. As you can see from the other atempts to make a
+          newer animation came a bit of a challenge. I am intending to make a new animation but smaller image.
+        </h4>
+      </article>
+      <br />
+      <article class="mypro">
+        <h3 id="myp10">
+          Code Examples
+        </h3>
+        <p>I have some pages that don't fit on any of the Sub-menu so I have put
+          and the end the menu bar. The pages are
+          ... <br /><a href="myproject.html">My Projects</a>, <a href="Imagemap.html">Image Map</a> and <a
+            href="Calendar.html">Web Calendar</a> I have made a stactic Web Calendar
+          and placed it in the 'My Project' Sub-menu</p><br />
+        <p>Below is a Banner ad I created quite a long time ago, I dont remember
+          what program I used to create the
+          animation with the banner I wanted to have static part while I had the
+          other part was moving. the web address is
+          done by adding to the text each time i made a new frame.</p><br />
+      </article>
+      <br />
+      <article class="mypro">
+        <h3 id="myp66">
+          Fake Login
+        </h3>
+        <p>
+          I had an idea I wanted to create a fake login for my website. so I found a script on the internet to
+          do
+          it, this uses Javascript to process the username and password (this has the username and password
+          set in
+          the Code) This really only a proof of concept that it can be done. at the moment it goes to a normal
+          page, I am looking at making it differnt to the rest of the site so you know you have reached this
+          page.
+          <br />
+          <a href="login.html">Have a Look</a>
+        </p>
+      </article>
+      <br />
+      <article class="mypro">
+        <h3 id="myp15">
+          Calculator Script
+        </h3>
+        <p>
+          While looking for a script to display a simulation of a LED segment display I came across this
+          Calculator
+          script. <br />
+          I looked at it thought it might be easy to do so I got it working on the test page. I then put it on
+          its own
+          page and modified the menu. <br />
+          Once the calculator was working <a href="demo_three.html#calc_demo">Which you can see here</a>
+          <br /><br />
+        </p>
+      </article>
+      <br />
+      <article class="mypro">
+        <h3 id="myp20">
+          Moving Eyes Demo in Frame
+        </h3>
+        I started out playing with box with a frame. I then added the Javascript for the Moving eye demostration
+        to the
+        frame box. I then started to try and move the objects from the root of the web site. I was able to move
+        the
+        Javascript to the JS folder. when I was happy I moved the demo to the final page. I also moved the style
+        used on
+        the test page to the stylesheet. <br />
+        <a href="demo_two.html#meye">See the Demo</a>
+        <br />
+      </article>
+      <br />
+      <article class="mypro">
+        <h3 id="myp25">
+          Image in frame to Demo page
+        </h3>
+        <p>
+          I have been working on this for some time, when it did not go to plan I dropped it. What I was
+          trying to do was
+          see if create universal image place holder for the images I have on the web site <span style="color:red;">but
+            it
+            did not work</span>. The sample of what I was trying to achive is below, the border had to be adjusted to
+          each image.
+        <h3>
+          Outline of project
+        </h3>
+        The background of the place holder is gray you can see this around the image, it also has a boarder with
+        3d effect
+        using the 'ridge' attribute in the border style command
+        <br />
+        <div class="imgcontainer">
+          <img src="img/3dtxt-02.png" alt="test" title="Test Image" />
+        </div>
+        </p>
+      </article>
+      <br />
+      <article class="mypro">
+        <h3 id="myp30">
+          What I have been doing with 'Iframes'
+        </h3>
+        <h4>
+          As a part my on-going updates to the Website I have added a few
+          "Iframes" to my project, one is a html
+          source
+          code example the other has been to fix an layout issue with my page
+          where I have added a Calendar demo to
+          the site, I also intend to see if I can do the same with the flip
+          clock I have on one of the demo pages, I
+          also intend to add more to the site.
+        </h4>
+        <h3>
+          Below is list of current "Iframes" I have on the site
+        </h3>
+        <p class="centxt" style="font-weight: bolder;">
+          <a href="myproject.html#scode">html source code example</a>&nbsp;&nbsp;&nbsp;<a
+            href="demo_three.html#Dyn_Cal">dynamic
+            Calendar</a>&nbsp;&nbsp;&nbsp;<a href="demo_two.html#flip">Flip
+            Clock</a>&nbsp;&nbsp;&nbsp;<a href="index.html#dyn_cnt">Screen Shot 'Iframe'</a>
+        </p>
+      </article>
+      <br />
+      <article class="mypro">
+        <h3 id="myp35">
+          Animated Banner and how I made it
+        </h3>
+        <p>
+          I wanted to challenge myself so I created a project to create a
+          animated Banner and document the processes I went through to create
+          it. I also mentioned the programs I used. <br />
+          I used a program called 'Photofilter' to create the frames for the
+          animation. In order to create the animation you first need to create
+          what is known as 'frames' these create the moving text / image that
+          appear in the final animation. <br />
+          After you have all the 'frames' you need to import them into the
+          program that is going to make the final animations and depending on
+          the program you choose you may have set the timing on each 'frame' or
+          set a generic value which will apply to all 'frames', you then have
+          save the file in a format that will run 'frames' as a single file
+          there for getting the final animation. <br>
+          below is one of the animation, in total I used 3 programs to create
+          the animation <a href="myanigif.html">click here to go the page on my
+            wesite</a><br />
+        <p class="centxt"><img src="/animate/complete/Animate.gif" alt="Compled animation" class="imgsize"
+            title="Final Animated Banner" />
+        </p>
+        </p>
+      </article>
+      <br />
+      <article class="mypro">
+        <h3 id="myp40">Javascripts I am currently running on this site</h3>
+        <ul class="bultype">
+          <li>
+            Using simple Javascript The page 'title' is displayed (in blue
+            with
+            a light yellow background this also has a shadow around it at the
+            top of the page under the webpage logo) this is
+            taken from the title command in the html header section of the
+            page
+          </li>
+          <li>
+            If you look at the bottom of each page you will see ticking
+            digital clock with current Day and Date
+          </li>
+          <li>
+            On most pages there is a "Top of page button" as you scroll down
+            the page
+          </li>
+          <li>
+            On the same page lower down is a another one which show an example
+            of a
+            <a href="demo_one.html#API">
+              form field
+            </a>
+          </li>
+          <li>
+            On Demo Page Two is a
+            <a href="demo_two.html#flip">
+              Flip clock Demo
+            </a>
+            , this is running in a 'Iframe'
+          </li>
+          <li>
+            On the Web Calendar page under the My Project menu is a
+            <a href="demo_three.html#Dyn_Cal">
+              Dynamic Calendar
+            </a>
+            By the 'EasyUI' and 'JQuery' scripts
+          </li>
+        </ul>
+      </article>
+      <br />
+      <article class="mypro">
+        <h3 id="myp45">
+          Project to See if I could get RSS Feeds work on this site
+        </h3>
+        <p>
+          This project was to get RSS Feeds working on my Website <br />
+          RSS is like news feed and I am using it to display my Blog Entries ...
+          This involved researching how to do, <br />
+          The First thing was to set up a '*.xml' file <br />
+          Once I had found out what was needed in the '*.xml' file I then
+          started doing some content and testing <br /> where it worked or not.
+          once the tests were complete I started populating the file. <br />
+          It took most of the week to populate the file. <br />
+          in the progress of populating the file I created a new heading on the blog page <br />
+          I am going to use the Heading for the text on the Blog index page, no doubt that will take a while
+          to do.
+          below is the path to the XML file <br /><br />
+          <a href="http://localhost/feed.xml">http://localhost/feed.xml <img src="img/pic_rss.gif"
+              style="vertical-align: middle;" alt="Feed"></a>
+        </p>
+      </article>
+      <br />
+      <article class="mypro">
+        <h3 id="myp50">
+          Blog index Big Change
+        </h3>
+
+        With the introdution of the RSS Feed I needed to Make change to Blog and Blog index. Once I had the
+        description
+        header on Blog, I needed to make the Blog Index more consistant so I added the same heading from the
+        blog to
+        index. In the process I discovered errors in the Id which I have now fixed. I did not like the layout of
+        the
+        index so I have changed the layout to be one long list, I am still not happy with the way it looks but
+        will have
+        to do for now. <br /> <br />
+        <a href="blog_index.html">
+          Have a look at the change
+        </a>
+        <br />
+      </article>
+      <br />
+      <article class="mypro">
+        <h3 id="MyP55">Some things I have found with VS Code</h3>
+        <table style="margin-left: auto; margin-right: auto;">
+          <tr>
+            <td style="width: 800px;">Vs Code has a command pallet called
+              Emmet which makes it easy
+              to
+              add command such as Paragraph or [p]. <br />If you type a letter
+              or letters related to a command
+              in htm.<br />
+              you will be prompted to complete the tag press the enter to
+              complete.<br />
+              When entering an html attribute if ctrl + space will bring up a
+              list of classes, Id's, pages
+              (.html), images <br />
+              you can also do something like This 'ul&gt;li*5' what it will
+              produce is bulleted list with 5 list
+              items <br />
+              <span style="color:green;">New!</span> One thing I have found
+              out with working with 'Iframes' is that to center the object you
+              set the margins to
+              auto and use the 'display' property and set it to 'Block' mode
+              <br />
+              (this is called Emmet and it make entering code easier) <br />I
+              am still discovering other
+              things about VS Code.
+            </td>
+          </tr>
+        </table>
+
+      </article>
+      <br />
+      <article class="mypro">
+        <h3 id="myp60">Code Examples</h3>
+        <h3>There are two code examples I wanted to play with</h3>
+        <p>The first on involves inputting text into a field and producing a
+          text file from it and the second was to
+          display actual html code on the Webpage see below...</p><br /><br />
+        <h2 id="myp12">Create Text file from input off a Web page</h2>
+        <br />
+        <h4 style="color: red;" class="centxt"> Enter the text file
+          content:- </h4>
+        <textarea style="margin-left: 40%; margin-right: 40%;" cols="50" rows="10"> </textarea>
+        <br />
+        <button style="margin-left: 40%; margin-right: 40%; background-color: #ffff66;" onclick="downloadFile()"> save
+          File </button>
+        <p>&nbsp;</p>
+        <script>
+          const downloadFile = () => {
+            const link = document.createElement("a");
+            const content = document.querySelector("textarea").value;
+            const file = new Blob([content], { type: 'text/plain' });
+            link.href = URL.createObjectURL(file);
+            link.download = "sample.txt";
+            link.click();
+            URL.revokeObjectURL(link.href);
+          };
+        </script>
+        <hr />
+      </article>
+      <br />
+      <article class="mypro">
+        <h2 id="myp65">I wanted to see if I can display some html code on the
+          web page</h2>
+        <h4>The code you see below is the code needed to get input from a user
+          and save it as a text file, the code
+          is in two parts the first is the actual 'html' and below it is the
+          JavaScript.</h4>
+        <!--Iframe Start-->
+        <div class="centxt" id="scode">
+          <iframe src="ifcode.html" frameborder="5"></iframe>
+        </div>
+        <!--Iframe End-->
+        <p><span class="note">Note: </span>I am also
+          using the 'iframe' html tag as I had to
+          abandon the orignal 'Iframe' example I had.</p>
+        <br />
+      </article>
+      <br />
+      <article class="mypro" id="myp67">
+        <h3 class="centxt">
+          Hover-over image (onmouseover="this.src='image name'")
+        </h3>
+        <p>
+          I had always wanted to revive the hover over image used on our family business website, I intially
+          could
+          not remember
+          how I did it, but after doing a bit of searching I found what I wanted. <br />
+          using the image tag and on mouseover and onmouseout with 'this.src='filename'' with in the 'a' tag
+          <br />
+          The other way I have demoed is using css code do the rollover image. I have had to put the css code
+          in
+          the head tag of the page
+          This has caused me to create a seperate page to house the code. to see the page <a
+            href="mouseover_demo.html">Click Here</a>
+        </p>
+        <p>
+          &nbsp;
+        </p>
+        <p class="centxt">
+          <img src="img/gallery6.jpg" alt="Mouse Over Test" class="imgsize" title="Mouse Over test"
+            onmouseover="this.src='img/gallery3.jpg'" onmouseout="this.src='img/gallery6.jpg'">
+        </p>
+        <h4>
+          Below is the source of the above rollover
+        </h4>
+        <br />
+        <code style="background-color: antiquewhite;">
+				&lt;img src="img/gallery6.jpg" alt="Mouse Over Test" class="imgsize" title="Mouse Over Test" <br />
+				onmouseover="<span style="color: red;">this.src</span>='img/gallery3.jpg'" onmouseout="<span style="color: red;">this.src</span>='img/gallery6.jpg'"&gt; 
+			</code>
+
+        <p>
+          <span class="note">
+            Note:
+          </span>
+          &nbsp; the code in red is the dhtml code used to fetch the mouseover
+        </p>
+      </article>
+      <br />
+      <article id="myp68" class="mypro">
+        <h3 class="centxt">
+          Project update 1 - 10 December 2023
+        </h3>
+        <p>
+          <span class="note">Note:</span>&nbsp; I dont garentee I will get everything but here it Goes...
+        </p>
+        <p>
+        <h3>
+          <img src="/img/bullet_ball_green.gif" alt="bullet" class="imgsize" /> On the My Project page:
+        </h3>
+        &nbsp; The menu for the things on the page is now a mouse over button , this involved creating two
+        images for each button and writing the code<br />
+        I have also moved on of the Original Animated banners and put a description under it to describe how the
+        image came about. you may also notice I have a new bullet point working on the website as you can see on
+        the heading 3 I using here.
+        </p>
+        <p>
+        <h3>
+          <img src="img/bullet_ball_green.gif" alt="Bullet" class="imgsize" /> On the Blog pages:
+        </h3>
+        &nbsp;Make a blog about what I have been doing and some ideas at the sametime update the blog index and
+        the Rss feed.
+        </p>				
+
+        <p>
+        <h3>
+          <img src="img/bullet_ball_green.gif" alt="Bullet" class="imgsize" /> Demo: Get Data From a Web Form
+        </h3>
+        One of the projects I have been experimenting with is how to get the output of a form and display it on
+        the same page under the form (This is now working)
+        </p>
+        <p>&nbsp;</p>
+      </article>
+      <br />
+      <article id="myp69" class="mypro">
+        <h3 class="centxt">
+          Blog Numbering and Blog Index
+        </h3>
+        <p>
+          <img src="img/green-dot-icon.png" alt="Green Dot" class="imgsize"
+            style="border: 0px;vertical-align:middle;" />&nbsp;After the few years of developing this website, I have finally implmented a blog number in the title of the blog,
+        </p>
+        <p>&nbsp;</p>
+        <p>
+          <img src="img/green-dot-icon.png" alt="Green Dot" class="imgsize"
+          style="border: 0px;vertical-align:middle;" />&nbsp;Taking the number from the id I assign each blog post (The current id I am up to is Btxt84) so 84 becomes my blog number. As I mentioned in the title I yet agin made a change to the blog index, it now has a clickable button to take you to the blog post.
+        </p>
+        <p>
+          <img src="img/green-dot-icon.png" alt="Green Dot" class="imgsize"
+          style="border: 0px;vertical-align:middle;" />&nbsp; in the process of doing the buttons on the blog index page I learned a new bit of javascript to use with the onclick property that is <code style="background-color: teal; color: #ff7;">
+            (window.location.href='webpage.html')
+          </code>
+        </p>
+        <p>
+          <img src="img/green-dot-icon.png" alt="Green Dot" class="imgsize"
+          style="border: 0px;vertical-align:middle;" />&nbsp;My aim is to get to at least 100 blog posts.
+        </p>
+        <p>
+          <img src="img/green-dot-icon.png" alt="Green Dot" class="imgsize"
+          style="border: 0px;vertical-align:middle;" />&nbsp;Have look at the update <a href="blog_index.html">Here</a>
+        </p>
+      </article>
+      <br />
+      <!--******************Content End*******************-->
+      <p class="centxt"><img style="box-shadow: 0px 0px 10px 0px black;" class="imgsize" src="img/lhbanner.gif"
+          alt="LocalHost" title="LH Banner"></p>
+      <hr />
+      <br />
+      <!--Bottom Menu Goes here-->
+      <span id="indbmenu">
+        <p class="centxt">
+          &nbsp;&nbsp;&nbsp;<a href="index.html">
+            <img src="img/hm.gif" alt="Home" title="Home" class="imgsize"> Home</a>
+          &nbsp;&nbsp;&nbsp;<a href="blog_index.html">Blog
+            Index</a>&nbsp;&nbsp;&nbsp;<a href="todo.html">To Do</a>&nbsp;&nbsp;&nbsp;<br />
+          <a href="myproject.html">My Project</a>&nbsp;&nbsp;&nbsp;
+          <a href="ThingsDone.html">Things Done</a>&nbsp;&nbsp;&nbsp;<a href="useful.html">Useful
+            Links</a>
+        </p>
+      </span>
+      <br />
+
+    </main>
+    <!--*** Top of Page script ***-->
+    <script type="text/Javascript">
+		// Get the button
+		let mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () { scrollFunction() };
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+
+    <!-- Footer -->
+    <footer>
+      <time id="row1">
+      </time>
+      <br />
+      <time id="row2">
+      </time>
+      <script type="text/javascript">
+        updateClock();
+      </script>
+    </footer>
+
+  </body>
+
+</html>

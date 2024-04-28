@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style/Style.css">
+      <title>Code</title>
+   </head>
+
+   <body>
+      <pre class="codeinset">
+    <code>
+        &lt;h2 class="centxt"&gt; Create a text file and save it to a local computer using JavaScript. &lt;/h2&gt;
+       &lt;h4 style="color: red;" class="centxt"&gt; Enter the file content:- &lt;/h4&gt;
+       &lt;textarea style="margin-left: 40%; margin-right: 40%;" cols="50" rows="10"&gt; &lt;/textarea&gt;
+       &lt;br/&gt;
+       &lt;button style="margin-left: 40%; margin-right: 40%;" onclick = "downloadFile()"&gt; save File &lt;/button&gt;&lt;p&gt;&nbsp;&lt;/p&gt;
+       &lt;p&gt; ------------------------------------------------------------------------------------------------------------- &lt;/p&gt;
+       &lt;script&gt;
+          const downloadFile = () =&gt; {
+             const link = document.createElement("a");
+             const content = document.querySelector("textarea").value;
+             const file = new Blob([content], { type: 'text/plain' });
+             link.href = URL.createObjectURL(file);
+             link.download = "sample.txt";
+             link.click();
+             URL.revokeObjectURL(link.href);
+          };
+       &lt;/script&gt;
+    </code>
+    </pre>
+   </body>
+
+</html>

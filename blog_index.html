@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Localhost - Blog Index</title>
+		<link rel="stylesheet" href="style/basic.css">
+		<link rel="stylesheet" href="style/blog.css">
+		<script src="js/time.js"></script>
+		<style>
+			.button {
+				display: inline-block;
+				padding: 10px 15px;
+				font-size: 10pt;
+				cursor: pointer;
+				text-align: center;
+				text-decoration: none;
+				outline: none;
+				color: White;
+				font-weight: bold;
+				background-color: Blue;
+				border: none;
+				border-radius: 15px;
+				box-shadow: 0 4.5px 4px #999;
+			}
+
+			.button:hover {
+				background-color: #ffffdd;
+				color: red;
+				text-decoration: underline overline;
+			}
+
+			.button:active {
+				background-color: #ffff44;
+				box-shadow: 0 5px #666;
+				transform: translateY(4px);
+			}
+		</style>
+	</head>
+
+	<body>
+		<header id="head" class="centxt">
+			<img class="himg threedtxtbox" src="img/lhproject_main.png" alt="Main Header" title="LOCALHOST" />
+
+			<script>
+				var str = document.title;
+				document.write("<h2>" + str);
+			</script>
+		</header>
+		<p style="font-size: 3pt;">&nbsp;</p>
+
+		<!-- Main Menu -->
+		<nav id="nav-main">
+			<div class="nav_bar">
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="index.html">Home</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="todo.html">Things To Do</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="ThingsDone.html">Things Done</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">My Blogs</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="blog_index.html">Blog Index</a>
+						<a href="Blogs.html">Blog Detail</a>
+						<a href="blogArchive.html">Blog Archive</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="img_gal.html">Image Gallery</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Calendar Menu</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="12month.html">12 Month Calendar</a>
+						<a href="Calendar.html">Web Calendar</a>
+						<a href="EasyCal.html">Easy UI Calendar</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Demo Pages</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="demo_one.html">Content Demo 1</a>
+						<a href="demo_two.html">Content Demo 2</a>
+						<a href="demo_three.html">Content Demo 3</a>
+						<a href="demo_four.html">Content Demo 4</a>
+						<a href="calage.html">Calculate Age Demo</a>
+						<a href="cssunits.html">Css Unit Demo</a>
+						<a href="Test.html">Other Tests</a>
+						<a href="Template.html">My Template</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="myproject.html">My project</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="login.html">Login Demo</a>
+						<a href="useful.html">Useful Links</a>
+						<a href="Imagemap.html">Image Map</a>
+						<a href="mouseover_demo.html">Mouse Over Demo</a>
+						<a href="myanigif.html">My Animated Banner</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/back-to-top.png"
+				alt="Top of Page"></button>
+		<!--Top of Page button-->
+		<main id="Sect_Main">
+			<br />
+			<p class="centxt">
+				<a href="http://localhost/feed.xml" target="_blank"><img src="img/pic_rss.gif" style="vertical-align: middle;"
+						alt="Feed"> My RSS Feed</a>
+			</p>
+			<br />
+			<!--Add new Entry below-->
+			<article class="bindspec">
+				<h3>
+					This Blog post no.94 for 24 April 2024
+				</h3>
+				<h4 class="B_index">
+					Finished adding 'Green dot' to Blog posts
+						<br />
+	<p style="font-size: 3pt;">&nbsp;</p>
+	<button class="button" onclick="window.location.href='Blogs.html#Btxt94'">
+		See More
+	</button>
+	<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+		</article>
+		<br />
+<article class="bindspec">
+				<h3>
+					This is Blog post no.93 for 6 April 2024
+				</h3>
+				<h4 class="B_index">
+					New Banner Graphic made with a logo maker / Add Green dot bullet image to all blog posts
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt93'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog post no.92 for 29 March 2024
+				</h3>
+				<h4 class="B_index">
+					Updates and minor changes
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt92'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.91 for 27 March 2024
+				</h3>
+				<h4 class="B_index">
+					Age Calculator page and Console window output
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt91'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<br />
+			<article class="bindspec">
+				<h3>
+					This Blog post no.90 for 16 March 2024
+				</h3>
+				<h4 class="B_index">
+					Move to Archive page completed
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt90'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This Blog post no.89 for 11 March 2024
+				</h3>
+				<h4 class="B_index">
+					Move entires to Blog Archive (for 2021 and 2022)
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt89'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog post no.88 for 8 - 10 March 2024
+				</h3>
+				<h4 class="B_index">
+					Trying to Recreate the Local Host graphics also Create an Archive page for the Blogs
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt88'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog post no.86 for 1 March 2024
+				</h3>
+				<h4 class="B_index">
+					Not much to report ...
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt86'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This Blog post no.85 for 19 February 2024
+				</h3>
+				<h4 class="B_index">
+					Updates to blog numbering system and Blog Index Finished
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt85'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog post no.84 for 13 - 17 February 2024
+				</h3>
+				<h4 class="B_index">
+					Numbering system for Blogs, This has taken longer than expected
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt84'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.83 for 13 February 2024
+				</h3>
+				<h4 class="B_index">
+					Css Units demo and Numbering of new blog posts
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt83'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.82 for 12 - 14 January 2024
+				</h3>
+				<h4 class="B_index">
+					Finished updating styles add close buttons to popup's
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt82'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.81 for 5 January onwards
+				</h3>
+				<h4 class="B_index">
+					12 Month Calendar menu and other stuff
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt81'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.80 for 1 - 10 December 2023
+				</h3>
+				<h4 class="B_index">
+					My Project Mouseover Menu and other updates
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt80'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.79 for 20 - 24 November 2023
+				</h3>
+				<h4 class="B_index">
+					Project Image rollover "onmouseover="this.src='image filename'"
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt79'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.78 for 12 November 2023
+				</h3>
+				<h4 class="B_index">
+					Update to Website since laptop repair
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt78'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.77 for 17 October 2023
+				</h3>
+				<h4 class="B_index">
+					My project Index This is Blog Post no.77&nbsp;-&nbsp; / minor changes to
+					'To-Do' page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt77'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.76 for 14 October 2023
+				</h3>
+				<h4 class="B_index">This is Blog Post no.76&nbsp;-&nbsp;
+					Been a while since last update
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt76'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.75 for 3 October 2023
+				</h3>
+				<h4 class="B_index">
+					Get Image Gallery Finished, update 'To-do' and 'Things Done' Pages
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt75'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.74 for 24 September 2023 to 1 October 2023
+				</h3>
+				<h4 class="B_index">
+					Static Calendar updates, update to-do page, Create new style for Notes
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt74'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.73 for 22 September 2023
+				</h3>
+				<h4 class="B_index">
+					Move table style to new css and move XML data example to Demo page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt73'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.72 for 14,15 September 2023
+				</h3>
+				<h4 class="B_index">
+					To Do improvement - list of on going tasks
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt72'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.71 for 11,12 September 2023
+				</h3>
+				<h4 class="B_index">
+					What started out as attempt to create a glass effect in
+					'HTML'
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt71'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.70 for 8,9,10 September 2023
+				</h3>
+				<h4 class="B_index">
+					Calculator script / Move and change name of Archive page
+					for To-do
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt70'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.69 for 7 September 2023
+				</h3>
+				<h4 class="B_index">
+					Moving Eyes Demo in border
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt69'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.68 for 5 September 2023
+				</h3>
+				<h4 class="B_index">
+					Move Place Image centxt to Demo content page.
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt68'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.67 for 1 September 2023
+				</h3>
+				<h4 class="B_index">
+					Static Calendar and other updates
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt67'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.66 for 26,27 August 2023
+				</h3>
+				<h4 class="B_index">
+					Clean up and update folowing pages to-do, Achive, make
+					minor change to style
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt66'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.65 for 22 - 26 August 2023
+				</h3>
+				<h4 class="B_index">
+					This is Blog Post no.65&nbsp;-&nbsp;Continue on with Blog index re-design / improvements
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt65'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.64 for 21 August 2023
+				</h3>
+				<h4 class="B_index">
+					Blog Index Changes Finished
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt64'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.63 for 20 August 2023
+				</h3>
+				<h4 class="B_index">
+					Reformat the Blog Index redesign
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt63'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.62 for Late July to August 2023
+				</h3>
+				<h4 class="B_index">
+					After finishing the 'RSS' Feed fixing Blog Index, Work
+					on blog
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt62'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.61 for 17 July 2023 to 23 July 2023
+				</h3>
+				<h4 class="B_index">
+					Project RSS Feed
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt61'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.60 for 10 July 2023
+				</h3>
+				<h4 class="B_index">
+					Replicate new projects on the home page to the My
+					Project
+					page, Make minor
+					updates to home page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt60'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.59 for 27 June 2023 to 6 July 2023
+				</h3>
+				<h4 class="B_index">
+					Move the styles for the 'footer' into the stylesheet,
+					The Animated Banner project is now complete.
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt59'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.58 for 22 June 2023
+				</h3>
+				<h4 class="B_index">
+					Remove About menu, Project to create Animated Gif
+					Banner,
+					more on another
+					idea I have.
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt58'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.57 for 21 June 2023
+				</h3>
+				<h4 class="B_index">
+					More updates to Home page, Throw some ideas of what I
+					want
+					to do.
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt57'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.56 for 20 June 2023
+				</h3>
+				<h4 class="B_index">
+					Changes to the Home page that make look more like
+					'My Project' Page, fixes,
+					update 'to do' page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt56'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.55 for 16 June 2023
+				</h3>
+				<h4 class="B_index">
+					Changes to styles for 'Iframe'
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt55'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.54 for 13 June 2023
+				</h3>
+				<h4 class="B_index">
+					Flip Clock Changes
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt54'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.53 for 12 June 2023
+				</h3>
+				<h4 class="B_index">
+					Add "Achive" page, convert pages to 'Iframe'
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt53'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.52 for 7 - 9 June 2023
+				</h3>
+				<h4 class="B_index">
+					Rework "My Project" Page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt52'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.51 for 6 June 2023
+				</h3>
+				<h4 class="B_index">
+					Banner on More pages, Update 'To do', update blog
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt51'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.50 for 4, 5 June 2023
+				</h3>
+				<h4 class="B_index">
+					More minor changes
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt50'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.49 for 3 June 2023
+				</h3>
+				<h4 class="B_index">
+					Update Static Calendar, Other minor changes
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt49'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.48 for 22 May 2023
+				</h3>
+				<h4 class="B_index">
+					Reverse Blog Index, add Animated Banner to other pages
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt48'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.47 for 18 - 21 May 2023
+				</h3>
+				<h4 class="B_index">
+					&nbsp;-&nbsp;Dynamic Web Calendar and Web form Dialog
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt47'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.46 for 12 May 2023
+				</h3>
+				<h4 class="B_index">
+					Added a Web Calendar and more...
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt46'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.45 for 4, 5 May 2023
+				</h3>
+				<h4 class="B_index">
+					Abandon Changes To-Do list
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt45'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.44 for 2 May 2023
+				</h3>
+				<h4 class="B_index">
+					Main tag, Fix Mistakes, Add 'Iframe'
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt44'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.43 for 1 May 2023
+				</h3>
+				<h4 class="B_index">
+					Graphical bullet and other things
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt43'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.42 for 22 April 2023
+				</h3>
+				<h4 class="B_index">
+					Rename Website files ".htm" to ".html"
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt42'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.41 for 18 April 2023
+				</h3>
+				<h4 class="B_index">
+					Tried Adding Image to Main Menu
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt41'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.40 for 11 April 2023
+				</h3>
+				<h4 class="B_index">
+					More Experiments, add them to the
+					'My Project' Page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt40'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.39 for 7 April 2023
+				</h3>
+				<h4 class="B_index">
+					Tests and minor changes to the website, fix link colours
+					in
+					website
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt39'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.38 for 2 April 2023
+				</h3>
+				<h4 class="B_index">
+					More Changes to the Blog Page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt38'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.37 for 31 March 2023
+				</h3>
+				<h4 class="B_index">
+					Updates on Blog Index page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt37'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.36 for 27 March 2023
+				</h3>
+				<h4 class="B_index">
+					Flip Clock Project
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt36'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.35 for 19 March 2023
+				</h3>
+				<h4 class="B_index">
+					'Iframe', Continue to work on Goals page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt35'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.34 for 17 March 2023
+				</h3>
+				<h4 class="B_index">
+					Clean up pages
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt34'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.33 for 8, 9 March 2023
+				</h3>
+				<h4 class="B_index">This is Blog Post no.33&nbsp;-&nbsp;
+					Make Image map
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt33'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.32 for 7 March 2023
+				</h3>
+				<h4 class="B_index">
+					Continue to make minor updates
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt32'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.31 for 6 March 2023
+				</h3>
+				<h4 class="B_index">
+					Make Inprovements to various pages
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt31'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.30 for 27, 28 February 2023
+				</h3>
+				<h4 class="B_index">
+					Add Top of page script to more pages
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt30'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.29 for 26 February 2023
+				</h3>
+				<h4 class="B_index">
+					Make Fixes to various pages
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt29'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.28 for 24, 25 February 2023
+				</h3>
+				<h4 class="B_index">
+					Top of page Javascript
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt28'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.27 for 18 - 23 February 2023
+				</h3>
+				<h4 class="B_index">
+					Finish Resume Page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt27'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.26 for 16,17 February 2023
+				</h3>
+				<h4 class="B_index">
+					Added to 'My Project' Page about VS Code commands
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt26'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.25 for 14,15 February 2023
+				</h3>
+				<h4 class="B_index">
+					Make changes to About me page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt25'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.24 for 12,13 February 2023
+				</h3>
+				<h4 class="B_index">
+					Update Several pages, fix errors
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt24'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.23 for 31 January 2023
+				</h3>
+				<h4 class="B_index">
+					Update pages Get the top of Page script working properly, update To Do
+					page
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt23'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.22 for 30 January 2023
+				</h3>
+				<h4 class="B_index">
+					I am now populating with the new Menu system, Install Github Desktop to play with, Add
+					page and re-orgnise where source is stored
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt22'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.21 for 15 January 2023
+				</h3>
+				<h4 class="B_index">
+					Continue Experiment With Menu systems, Rename some pages
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt21'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.20 for Around 8 January 2023
+				</h3>
+				<h4 class="B_index">
+					Experiment with Drop-Down Menus
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt20'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+			<article class="bindspec">
+				<h3>
+					This is Blog Post no.19 for December 2022 to January 2023
+				</h3>
+				<h4 class="B_index">
+					Doing more experiments, but the experiments is causing
+					problem with the Menu
+					<br />
+					<p style="font-size: 3pt;">&nbsp;</p>
+					<button class="button" onclick="window.location.href='Blogs.html#Btxt19'">
+						See More
+					</button>
+					<p style="font-size: 3pt;">&nbsp;</p>
+				</h4>
+			</article>
+			<br />
+
+			<!-- **************************************************************************************************************************************** -->
+			<p style="font-size: xx-small;">&nbsp;</p>
+			<p class="centxt"><img style="box-shadow: 0px 0px 10px 0px black;" class="imgsize" src="img/lhbanner.gif"
+					alt="LocalHost" title="LH Banner"></p>
+			<!--Bottom Menu Goes here-->
+			<hr />
+			<span id="indbmenu">
+				<p class="centxt">&nbsp;&nbsp;&nbsp;<a href="index.html">
+						<img src="img/hm.gif" alt="Home" title="Home" class="imgsize"> Home</a>
+					&nbsp;&nbsp;&nbsp;<a href="blog_index.html">Blog
+						Index</a>&nbsp;&nbsp;&nbsp;<a href="todo.html">To Do</a>&nbsp;&nbsp;&nbsp;<br />
+					<a href="myproject.html">My Project</a>&nbsp;&nbsp;&nbsp;
+					<a href="ThingsDone.html">Things Done</a>&nbsp;&nbsp;&nbsp;<a href="useful.html">Useful
+						Links</a>
+				</p>
+			</span>
+			<br />
+			<!-- Menu Ends -->
+		</main>
+		<!--********************************************************************************************************-->
+		<script>
+			// Get the button
+			let mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function () { scrollFunction() };
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					mybutton.style.display = "block";
+				} else {
+					mybutton.style.display = "none";
+				}
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
+		<!--************************************************************************************************************************* -->
+		<!-- Footer -->
+		<footer>
+			<time id="row1">
+			</time>
+			<br />
+			<time id="row2">
+			</time>
+			<script type="text/javascript">
+				updateClock();
+			</script>
+		</footer>
+	</body>
+
+</html>

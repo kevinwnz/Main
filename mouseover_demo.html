@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Localhost - Mouse Over Four</title>
+		<link rel="stylesheet" type="text/css" href="style/basic.css" />
+		<link rel="stylesheet" type="text/css" href="style/Table.css">
+		<link rel="stylesheet" href="style/custom.css">
+		<script src="js/time.js"></script>
+		<style>
+			.sudo {
+				margin: auto;
+				display: block;
+				width: 50%;
+				width: 289px;
+				height: 300px;
+				background-image: url("img/photoicon.png");
+			}
+
+			.sudo:hover {
+				background-image: url("img/search.png");
+			}
+		</style>
+	</head>
+
+	<body>
+		<header id="head" class="centxt">
+			<img class="himg threedtxtbox" src="img/lhproject_main.png" alt="Main Header" title="LOCALHOST" />
+
+			<script>
+				var str = document.title;
+				document.write("<h2>" + str);
+			</script>
+		</header>
+		<p style="font-size: 3pt">&nbsp;</p>
+
+		<!-- Main Menu -->
+		<nav id="nav-main">
+			<div class="nav_bar">
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="index.html">Home</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="todo.html">Things To Do</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="ThingsDone.html">Things Done</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">My Blogs</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="blog_index.html">Blog Index</a>
+						<a href="Blogs.html">Blog Detail</a>
+						<a href="blogArchive.html">Blog Archive</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="img_gal.html">Image Gallery</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Calendar Menu</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="12month.html">12 Month Calendar</a>
+						<a href="Calendar.html">Web Calendar</a>
+						<a href="EasyCal.html">Easy UI Calendar</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Demo Pages</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="demo_one.html">Content Demo 1</a>
+						<a href="demo_two.html">Content Demo 2</a>
+						<a href="demo_three.html">Content Demo 3</a>
+						<a href="demo_four.html">Content Demo 4</a>
+						<a href="calage.html">Calculate Age Demo</a>
+						<a href="cssunits.html">Css Unit Demo</a>
+						<a href="Test.html">Other Tests</a>
+						<a href="Template.html">My Template</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="myproject.html">My project</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="login.html">Login Demo</a>
+						<a href="useful.html">Useful Links</a>
+						<a href="Imagemap.html">Image Map</a>
+						<a href="mouseover_demo.html">Mouse Over Demo</a>
+						<a href="myanigif.html">My Animated Banner</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/back-to-top.png"
+				alt="Top of Page"></button>
+
+		<main id="Sect_Main">
+			<p>&nbsp;</p>
+			<hr />
+			<h2 class="centxt">
+				Image Swap - On Mouseover + code using css to do rollover effect
+			</h2>
+			<!--*****************************************************************************************************************-->
+			<table>
+				<tr>
+					<td>
+						<h4 class="centxt">
+							The first example use attributes 'Onmouseover' and 'Onmouseout' to specify the images this
+							uses
+							code from the Document Objet Modal 'this.src='
+						</h4>
+
+					</td>
+				</tr>
+			</table>
+			<br />
+			<p class="centxt">
+				<img src="img/gallery6.jpg" alt="Mouse Over Test" class="imgsize" title="Mouse Over test"
+					onmouseover="this.src='img/gallery3.jpg'" onmouseout="this.src='img/gallery6.jpg'">
+			</p>
+			<br />
+			<table>
+				<tr>
+					<td>
+						<h4>
+							Below is the source of the above rollover
+						</h4>
+						<br />
+						<code style="background-color: antiquewhite;">
+						&lt;img src="img/gallery6.jpg" alt="Mouse Over Test" class="imgsize" title="Mouse Over Test" <br />
+						onmouseover="<span style="color: red;">this.src</span>='img/gallery3.jpg'" onmouseout="<span style="color: red;">this.src</span>='img/gallery6.jpg'"&gt; 
+					  </code>
+
+						<p>
+							<span class="note">
+								Note:
+							</span>
+							&nbsp; the code in red is the dhtml code used to fetch the mouseover
+						</p>
+					</td>
+				</tr>
+			</table>
+			<br />
+			<table>
+				<tr>
+					<td>
+						<h4 class="centxt">
+							From: GeeksForGeeks
+						</h4>
+
+						<h4 class="centxt">
+							How this works it uses css code in the head section of this page
+							a class called 'sudo' defines the main image,<br /> (for this the two images must be same
+							size)
+							for the mouseover effect to work there is a sub-class called
+							'sudo:Hover' to replace the image on mouse over
+						</h4>
+					</td>
+				</tr>
+			</table>
+			<br />
+			<div class="sudo">
+			</div>
+			<hr />
+			<table>
+				<tr>
+					<td>
+						<p><span class="note">Note:</span>&nbsp;Due to things not working properly and I dont know why
+							it is happening I have had to move this test on to a sperate page under the 'My Project
+							menu' </p>
+					</td>
+				</tr>
+			</table>
+			<br />
+			<span id="indbmenu">
+				<p class="centxt">
+					&nbsp;&nbsp;&nbsp;<a href="index.html">
+						<img src="img/hm.gif" alt="Home" title="Home" class="imgsize"> Home</a>
+					&nbsp;&nbsp;&nbsp;<a href="blog_index.html">Blog
+						Index</a>&nbsp;&nbsp;&nbsp;<a href="todo.html">To Do</a>&nbsp;&nbsp;&nbsp;<br />
+					<a href="myproject.html">My Project</a>&nbsp;&nbsp;&nbsp;
+					<a href="ThingsDone.html">Things Done</a>&nbsp;&nbsp;&nbsp;<a href="useful.html">Useful
+						Links</a>
+				</p>
+			</span>
+			<br />
+
+		</main>
+		<script type="text/Javascript">
+		// Get the button
+		let mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () { scrollFunction() };
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+
+		<!-- Footer -->
+		<footer>
+			<time id="row1">
+			</time>
+			<br />
+			<time id="row2">
+			</time>
+			<script type="text/javascript">
+				updateClock();
+			</script>
+		</footer>
+	</body>
+
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Localhost - Content Demo Four</title>
+		<link rel="stylesheet" type="text/css" href="style/basic.css" />
+		<link rel="stylesheet" type="text/css" href="style/Table.css">
+		<link rel="stylesheet" type="text/css" href="style/custom.css">
+		<script src="js/time.js"></script>
+		<style>
+			#console{
+				display: block;
+				padding-left: 5px;
+				margin-left: 40rem;
+				width: 75%;
+				font-size: 15pt;
+			}
+			#lh24txt{
+				font-size: 15pt;
+				font-weight: bolder;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header id="head" class="centxt">
+			<img class="himg threedtxtbox" src="img/lhproject_main.png" alt="Main Header" title="LOCALHOST" />
+
+			<script>
+				var str = document.title;
+				document.write("<h2>" + str);
+			</script>
+		</header>
+		<p style="font-size: 3pt">&nbsp;</p>
+
+		<!-- Main Menu -->
+		<nav id="nav-main">
+			<div class="nav_bar">
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="index.html">Home</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="todo.html">Things To Do</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="ThingsDone.html">Things Done</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">My Blogs</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="blog_index.html">Blog Index</a>
+						<a href="Blogs.html">Blog Detail</a>
+						<a href="blogArchive.html">Blog Archive</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="img_gal.html">Image Gallery</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Calendar Menu</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="12month.html">12 Month Calendar</a>
+						<a href="Calendar.html">Web Calendar</a>
+						<a href="EasyCal.html">Easy UI Calendar</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Demo Pages</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="demo_one.html">Content Demo 1</a>
+						<a href="demo_two.html">Content Demo 2</a>
+						<a href="demo_three.html">Content Demo 3</a>
+						<a href="demo_four.html">Content Demo 4</a>
+						<a href="calage.html">Calculate Age Demo</a>
+						<a href="cssunits.html">Css Unit Demo</a>
+						<a href="Test.html">Other Tests</a>
+						<a href="Template.html">My Template</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="myproject.html">My project</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="login.html">Login Demo</a>
+						<a href="useful.html">Useful Links</a>
+						<a href="Imagemap.html">Image Map</a>
+						<a href="mouseover_demo.html">Mouse Over Demo</a>
+						<a href="myanigif.html">My Animated Banner</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/back-to-top.png"
+				alt="Top of Page"></button>
+
+		<main id="Sect_Main">
+			<p>&nbsp;</p>
+			<hr />
+			<h2 id="Tstyle" class="centxt">
+				Text Style
+			</h2>
+			<br />
+			<p class="txthlite">
+				I hope to put DHTML on this page
+			</p>
+			<hr />
+			<h2 id="output" class="centxt">
+				Output Form Data to Page
+			</h2>
+			<br />
+			<div class="centxt">
+				<table>
+					<tr>
+						<td>
+							&nbsp;Below is an example of capturing output from a form and displaying it
+							below&nbsp;<br />
+							&nbsp;<span class="note">Note:</span>&nbsp;This does automatic checking of content entered
+							(Although I dont know how it does it)&nbsp;
+						</td>
+					</tr>
+				</table>
+				<br />
+				<form id="myForm">
+					<label for="fname">First Name:</label>
+					<input type="text" id="fname" name="fname">
+					<label for="lname">Last Name:</label>
+					<input type="text" id="lname" name="lname">
+					<br> <br>
+
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email">
+					<br> <br>
+
+					<label for="Cell">Cell Phone No.</label>
+					<input type="text" name="cell" id="cell">
+					<br /><br />
+
+					<label for="date">Date Input:</label>
+					<input type="date" id="date" name="date"><br>
+					<br>
+					<button type="submit" onclick="submitForm()">Submit</button>
+				</form>
+				<br>
+				<h3>The Output is as follows...</h3><br>
+				<div id="outputDiv"></div>
+
+				<script>
+					function submitForm() {
+						event.preventDefault(); // Prevent form from submitting
+
+						// Get input values
+						var fname = document.getElementById("fname").value;
+						var lname = document.getElementById("lname").value;
+						var email = document.getElementById("email").value;
+						var cell = document.getElementById("cell").value;
+						var date = document.getElementById("date").value;
+
+						// Display output
+						document.getElementById("outputDiv").innerHTML = "<b>Full Name:</b>&nbsp;" + fname + " " + lname + "<br><b>Email:</b> " + email + "<br><b>Cell:</b> " + cell + "<br><b>Date:</b> " + date;
+					}
+				</script>
+			</div>
+			<hr />
+			<div id="console">
+				<p>
+					Displays the output of the Javascript console <br>
+				</p>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					console.log('You should know...');
+					console.error('Something went wrong...');
+					console.warn('Look out for this...');
+			})
+			
+			
+			// This should work
+			var native = window;
+			var originalConsole = native.console;
+			native.console = {
+					log: function(message){
+							$('ul.messages').append('<li>Log: ' + message + '</li>');
+							originalConsole.log(message);
+					},
+					error: function(message){
+							$('ul.messages').append('<li>Error: ' + message + '</li>');
+							originalConsole.error(message);
+					},
+					warn: function(message){
+							$('ul.messages').append('<li>Warn: ' + message + '</li>');
+							originalConsole.warn(message);
+					}
+			}
+			</script>
+
+			<h3>messages</h3>
+			<ul class="messages"></ul>				
+		</div>
+			<hr />
+			<p class="centxt" id="lh24txt">
+				The banner below was made with a logo maker I found on my system
+			</p>
+			<br />
+			<p class="centxt">
+				<img src="img/lhlogo24.jpg" alt="New Localhost Banner" title="New Localhost Banner" class="imgsize">
+			</p>
+			<hr />
+			<span id="indbmenu">
+				<p class="centxt">
+					&nbsp;&nbsp;&nbsp;<a href="index.html">
+						<img src="img/hm.gif" alt="Home" title="Home" class="imgsize"> Home</a>
+					&nbsp;&nbsp;&nbsp;<a href="blog_index.html">Blog
+						Index</a>&nbsp;&nbsp;&nbsp;<a href="todo.html">To Do</a>&nbsp;&nbsp;&nbsp;<br />
+					<a href="myproject.html">My Project</a>&nbsp;&nbsp;&nbsp;
+					<a href="ThingsDone.html">Things Done</a>&nbsp;&nbsp;&nbsp;<a href="useful.html">Useful
+						Links</a>
+				</p>
+			</span>
+			<br />
+
+		</main>
+		<script type="text/Javascript">
+		// Get the button
+		let mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () { scrollFunction() };
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+
+		<!-- Footer -->
+		<footer>
+			<time id="row1">
+			</time>
+			<br />
+			<time id="row2">
+			</time>
+			<script type="text/javascript">
+				updateClock();
+			</script>
+		</footer>
+	</body>
+
+</html>

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Age Calculator Demo</title>
+  <link rel="stylesheet" href="style/basic.css" />
+  <link rel="stylesheet" href="style/custom.css">
+  <script src="js/time.js"></script>
+<style>
+/* Setting alignment and fonts */
+#box {
+	display: flex;
+	text-align: center;
+	font-family: 
+	"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+    background-color: white;
+}
+
+/* Defining card properties */
+.card {
+	min-width: 30%;
+	box-shadow: 0 4px 8px 0 #ee7e07b4;
+	transition: 0.3s;
+	border-radius: 5px;
+	margin: auto;
+	padding: 2%;
+	padding-top: 0%;
+}
+
+header {
+	font-size: larger;
+}
+
+header h1 {
+	background-color: rgba(231, 231, 231, 0.711);
+	color: green;
+	font-size: xx-large;
+	padding: 1%;
+}
+
+/* Setting font and margin for text before input box */
+label {
+	font-size: large;
+	margin: 2%;
+}
+
+button {
+	font-size: large;
+	padding: 1%;
+}
+
+input {
+	width: 200px;
+	height: 50px;
+	font-size: larger;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+#inputDob {
+	margin: 2%;
+}
+
+p {
+	font-size: larger;
+	margin: 5%;
+}
+
+#currentAge {
+	min-width: 30%;
+	box-shadow: 0 4px 8px 0 rgba(130, 234, 234, 100);
+	transition: 0.3s;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 5%;
+	padding: 5%;
+	padding-top: 7%;
+	font-size: larger;
+}
+
+</style>
+</head>
+
+<body>
+  <header id="head" class="centxt">
+    <img class="himg threedtxtbox" src="img/lhproject_main.png" alt="Main Header" title="LOCALHOST" />
+
+    <script>
+      var str = document.title;
+      document.write("<h2>" + str);
+    </script>
+  </header>
+<br/>
+		<!-- Main Menu -->
+		<nav id="nav-main">
+			<div class="nav_bar">
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="index.html">Home</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="todo.html">Things To Do</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="ThingsDone.html">Things Done</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">My Blogs</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="blog_index.html">Blog Index</a>
+						<a href="Blogs.html">Blog Detail</a>
+						<a href="blogArchive.html">Blog Archive</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="img_gal.html">Image Gallery</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Calendar Menu</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="12month.html">12 Month Calendar</a>
+						<a href="Calendar.html">Web Calendar</a>
+						<a href="EasyCal.html">Easy UI Calendar</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Demo Pages</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="demo_one.html">Content Demo 1</a>
+						<a href="demo_two.html">Content Demo 2</a>
+						<a href="demo_three.html">Content Demo 3</a>
+						<a href="demo_four.html">Content Demo 4</a>
+						<a href="calage.html">Calculate Age Demo</a>
+						<a href="cssunits.html">Css Unit Demo</a>
+						<a href="Test.html">Other Tests</a>
+						<a href="Template.html">My Template</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="myproject.html">My project</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="login.html">Login Demo</a>
+						<a href="useful.html">Useful Links</a>
+						<a href="Imagemap.html">Image Map</a>
+						<a href="mouseover_demo.html">Mouse Over Demo</a>
+						<a href="myanigif.html">My Animated Banner</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- Main Menu Ends Here -->
+    <main id="Sect_Main">
+      <br />
+      <div id="box">
+  <div class="card">
+		<header>
+			<h1>Age Calculator Demo</h1>
+		</header>
+
+		<div>
+			<label>Enter your Date of Birth</label>
+
+			<input id="inputDob"
+				type="date"
+				value="1965-07-12" />
+				<p class="note">Enter Disired Date above</p>
+		</div>
+		<br />
+
+		<!-- Take the date from which age is to be calculated -->
+		<div>
+			<label>Current Date</label><br>
+			<input id="cdate"
+				type="date"
+				value="" />
+		</div>
+		<br />
+
+		<button type="button"
+				onclick="getDOB()">
+			Calculate
+		</button>
+		<br />
+		<div id="currentAge"></div>
+    <script>
+      // Define funtion to get calculated Age
+      function getDOB() {
+      
+        // Getting input from html input element
+        let data =
+          document.getElementById("inputDob").value;
+      
+        // Convert input data to usable format
+        // as day,month and year
+        let dob = new Date(data);
+        let day = dob.getDate();
+        let month = dob.getMonth();
+        let year = dob.getFullYear();
+      
+        // Getting current date and calculating the difference
+        let now =
+          new Date(document.getElementById("cdate").value);
+        console.log(now);
+        let yearDiff = now.getFullYear() - year;
+        let monthDiff = now.getMonth() - month;
+        let dateDiff = now.getDate() - day;
+      
+        // Calculating the Age
+        if (yearDiff < 0) console.log("invalid date");
+        else if (monthDiff > 0) {
+          console.log(yearDiff);
+        } else if (monthDiff === 0 && dateDiff >= 0) {
+          console.log(yearDiff);
+        } else {
+          yearDiff = yearDiff - 1;
+          if (monthDiff <= 0)
+            if (dateDiff > 0) monthDiff = 12 + monthDiff;
+            else monthDiff = 11 - monthDiff;
+        }
+        if (dateDiff < 0) {
+          dateDiff = 30 + dateDiff;
+          monthDiff -= 1;
+        }
+      
+        // Show calculated age as output
+        // and invalid if wrong input is given
+        if (yearDiff < 0)
+          document.getElementById("currentAge").innerHTML = "Invalid Date";
+        else
+          document.getElementById("currentAge").innerHTML =
+            "Your current Age is " + yearDiff + " years "
+            + monthDiff + " months " + dateDiff + " days";
+      }
+      
+      // Function to provide default date value
+      function currentDate() {
+        console.log(formatted());
+        let d = document.getElementById("cdate");
+        d.value = formatted();
+      }
+      
+      function formatted(date = new Date()) {
+        return [
+          date.getFullYear(),
+          short(date.getMonth() + 1),
+          short(date.getDate()),
+        ].join("-");
+      }
+      function short(num) {
+        return num.toString().padStart(2, "0");
+      }
+      
+      // Calling current date function to set default date value
+      currentDate();
+      </script>
+			<br />
+			<a href="agecodejs.txt" target="_blank">See JS Code</a><br />
+			<a href="ageform.txt" target="_blank">See form that the javascript uses to generate answer</a>
+    	</div>
+	</div>
+    <br />
+    </main>      
+		<footer>
+			<time id="row1">
+			</time>
+			<br />
+			<time id="row2">
+			</time>
+			<script type="text/javascript">
+				updateClock();
+			</script>
+		</footer>
+</body>
+
+</html>

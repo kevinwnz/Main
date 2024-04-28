@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Localhost Blogs</title>
+    <link>http://Localhost/blogs.html</link>
+    <description>My Blog Posts</description>
+    <item>
+      <title>This Blog post no.94 for 24 April 2024</title>
+      <link>http://localhost/blogs.html#Btxt94</link>
+      <description>Finished adding 'Green dot' to Blog posts</description>
+    </item>
+    <item>
+      <title>This is Blog post no.93 for 6 April 2024</title>
+      <link>http://localhost/blogs.html#Btxt93</link>
+      <description>New Banner Graphic made with a logo maker / Add Green dot bullet image to all blog posts</description>
+    </item>
+    <item>
+      <title>This is Blog post no.92 for 29 March 2024</title>
+      <link>http://localhost/blogs.html#Btxt92</link>
+      <description>Updates and minor changes</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.91 for 27 March 2024</title>
+      <link>http://localhost/blogs.html#Btxt91</link>
+      <description>Age Calculator page and Console window output</description>
+    </item>
+    <item>
+      <title>This Blog post no.90 for 16 March 2024</title>
+      <link>http://localhost/blogs.html#Btxt90</link>
+      <description>Move to Archive page completed</description>
+    </item>
+    <item>
+      <title>This Blog post no.89 for 11 March 2024</title>
+      <link>http://localhost/blogs.html#Btxt89</link>
+      <description>Move entires to Blog Archive (for 2021 and 2022)</description>
+    </item>    
+    <item>
+      <title>This is Blog post no.88 for 8 - 10 March 2024</title>
+      <link>http://localhost/blogs.html#Btxt88</link>
+      <description>Trying to Recreate the Local Host graphics also Create an Archive page for the Blogs</description> 
+    </item>
+    <item>
+      <title>This Blog post no.87 for 3 March 2024</title>
+      <link>http://localhost/blogs.html#Btxt87</link>
+      <description>I wrote a sentence using character codes</description>
+    </item>
+    <item>
+      <title>This is Blog post no.86 for 1 March 2024</title>
+      <link>http://localhost/blogs.html#Btxt86</link>
+      <description>Not much to report ...</description>
+    </item>
+    <item>
+      <title>This Blog post no.85 for 19 February 2024</title>
+      <link>http://localhost/blogs.html#Btxt85</link>
+      <description>Updates to blog numbering system and Blog Index Finished</description>
+    </item>
+		<item>
+      <title>This is Blog post no.84 for 13 - 17 February 2024</title>
+      <link>http://localhost/blogs.html#Btxt84</link>
+      <description>Numbering system for Blogs, This has taken longer than expected</description>
+    </item>
+    <item>
+			<title>This is Blog Post no.83 for 13 February 2024</title>
+			<link>http://localhost/blogs.html#Btxt83</link>
+			<description>This is Blog Post no.83 New Page - Css Units demo and Numbering of new blog posts</description>
+		</item>
+    <item>
+      <title>This is Blog Post no.82 for 12 - 14 January 2024</title>
+      <link>http://localhost/blogs.html#Btxt82</link>
+      <description>Finished updating styles add close buttons to popup's</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.81 for 5 January onwards</title>
+      <link>http://localhost/blogs.html#Btxt81</link>
+      <description>12 Calendar menu and other stuff</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.80 for 1 - 10 December 2023</title>
+      <link>http://localhost/blogs.html#Btxt80</link>
+      <description>My Project Mouseover Menu and other updates</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.79 for 21 - 24 November 2023</title>
+      <link>http://localhost/blogs.html#Btxt79</link>
+      <description>Project Image rollover "onmouseover="this.src='image filename'"</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.78 for 12 November 2023</title>
+      <link>http://localhost/blogs.html#Btxt78</link>
+      <description>Update to Website since laptop repair</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.77 for 17 October 2023</title>
+      <link>http://localhost/blogs.html#Btxt77</link>
+      <description>My project Index update / minor changes to 'To-Do' page</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.76 for 14 October 2023</title>
+      <link>http://localhost/blogs.html#Btxt76</link>
+      <description>Been a while since last update</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.75 for 3 October 2023</title>
+      <link>http://localhost/blogs.html#Btxt75</link>
+      <description>Get Image Gallery Finished, update 'To-do' and 'Things Done' Pages</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.74 for 24 September 2023 to 1 October 2023</title>
+      <link>http://localhost/blogs.html#Btxt74</link>
+      <description>Static Calendar updates, update to-do page, Create new style for Notes</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.73 for 22 September 2023</title>
+      <link>http://localhost/blogs.html#Btxt73</link>
+      <description>Move table style to new css and move XML data example to Demo page</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.72 for 14,15 September 2023</title>
+      <link>http://localhost/blogs.html#Btxt72</link>
+      <description>To Do improvement - list of on going tasks</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.71 for 11,12 September 2023</title>
+      <link>http://localhost/blogs.html#Btxt71</link>
+      <description>What started out as attempt to create a glass effect in 'HTML'</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.70 for 8,9,10 September 2023</title>
+      <link>http://localhost/blogs.html#Btx70</link>
+      <description>Calculator script / Move and change name of Archive page for To-do</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.69 for 7 September 2023</title>
+      <link>http://localhost/blogs.html#Btxt69</link>
+      <description>Moving Eyes Demo in border</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.68 for 5 September 2023</title>
+      <link>http://localhost/blogs.html#Btxt68</link>
+      <description>Move Place Image centxt to Demo content page.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.67 for 1 September 2023</title>
+      <link>http://localhost/blogs.html#Btxt67</link>
+      <description>Static Calendar and other updates</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.66 for 26,27 August 2023</title>
+      <link>http://localhost/blogs.html#Btxt66</link>
+      <description>Clean up and update folowing pages to-do, Achive, make minor change to style</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.65 for 22 - 26 August 2023</title>
+      <link>http://localhost/blogs.html#Btxt65</link>
+      <description>Continue on with Blog index re-design / improvements</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.64 for 21 August 2023</title>
+      <link>http://localhost/blogs.html#Btxt64</link>
+      <description>Blog Index Changes Finished</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.63 for 20 August 2023</title>
+      <link>http://localhost/blogs.html#Btxt63</link>
+      <description>Reformat the Blog Index redesign</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.62 for Late July to August 2023</title>
+      <link>http://localhost/blogs.html#Btxt62</link>
+      <description>After finishing the 'RSS' Feed fixing Blog Index, Work on blog</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.61 for 17 July 2023 to 23 July 2023</title>
+      <link>http://localhost/blogs.html#Btxt61</link>
+      <description>Project RSS Feed</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.60 for 10 July 2023</title>
+      <link>http://localhost/blogs.html#Btxt60</link>
+      <description>Replicate new projects on the home page to the My Project page, Make minor updates to home page</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.59 for 27 June 2023 to 6 July 2023</title>
+      <link>http://localhost/blogs.html#Btxt59</link>
+      <description>Move the styles for the 'footer' into the stylesheet, The Animated Banner project is now complete.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.58 for 22 June 2023</title>
+      <link>http://localhost/blogs.html#Btxt58</link>
+      <description>Remove About menu, Project to create Animated Gif Banner, more on another
+				idea I have.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.57 for 21 June 2023</title>
+      <link>http://localhost/blogs.html#Btxt57</link>
+      <description>More updates to Home page, Throw some ideas of what I want to do.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.56 for 20 June 2023</title>
+      <link>http://localhost/blogs.html#Btxt56</link>
+      <description>Changes to the Home page that make look more like 'My Project' Page, fixes,
+				update 'to do' page</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.55 for 16 June 2023</title>
+      <link>http://localhost/blogs.html#Btxt55</link>
+      <description>Changes to styles for 'Iframe'.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.54 for 13 June 2023</title>
+      <link>http://localhost/blogs.html#Btxt54</link>
+      <description>Flip Clock Changes.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.53 for 12 June 2023</title>
+      <link>http://localhost/blogs.html#Btxt53</link>
+      <description>Add "Achive" page, convert pages to 'Iframe' id="Btxt53"</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.52 for 7 - 9 June 2023</title>
+      <link>http://localhost/blogs.html#Btxt52</link>
+      <description>Rework "My Project"</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.51 for 6 June 2023</title>
+      <link>http://localhost/blogs.html#Btxt51</link>
+      <description>Banner on More pages, Update 'To do', update blog</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.50 for 4, 5 June 2023</title>
+      <link>http://localhost/blogs.html#Btxt50</link>
+      <description>More minor changes</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.49 for 3 June 2023</title>
+      <link>http://localhost/blogs.html#Btxt49</link>
+      <description>Update Static Calendar, Other minor changes</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.48 for 22 May 2023</title>
+      <link>http://localhost/blogs.html#Btxt48</link>
+      <description>Reverse Blog Index, add Animated Banner to other pages.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.47 for 18 - 21 May 2023</title>
+      <link>http://localhost/blogs.html#Btxt47</link>
+      <description>Dynamic Web Calendar and Web form Dialog.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.46 for 12 May 2023</title>
+      <link>http://localhost/blogs.html#Btxt46</link>
+      <description>Added a Web Calendar and more..."</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.45 for 4, 5 May 2023</title>
+      <link>http://localhost/blogs.html#Btxt45</link>
+      <description>Abandon Changes To-Do list</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.44 for 2 May 2023</title>
+      <link>http://localhost/blogs.html#Btxt44</link>
+      <description>Main tag, Fix Mistakes, Add 'Iframe'</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.43 for 1 May 2023</title>
+      <link>http://localhost/blogs.html#Btxt43</link>
+      <description>Graphical bullet and other things.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.42 for 22 April 2023</title>
+      <link>http://localhost/blogs.html#Btxt42</link>
+      <description>Rename Website files ".htm" to ".html"</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.41 for 18 April 2023</title>
+      <link>http://localhost/blogs.html#Btxt41</link>
+      <description>Tried Adding Image to Main Menu.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.40 for 11 April 2023</title>
+      <link>http://localhost/blogs.html#Btxt40</link>
+      <description>More Experiments, add them to the 'My Project' Page.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.39 for 7 April 2023</title>
+      <link>http://localhost/blogs.html#Btxt39</link>
+      <description>Tests and minor changes to the website, fix link colours in website</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.38 for 2 April 2023</title>
+      <link>http://localhost/blogs.html#Btxt38</link>
+      <description>More Changes to the Blog Page.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.37 for 31 March 2023</title>
+      <link>http://localhost/blogs.html#Btxt37</link>
+      <description>Updates on Blog Index page.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.36 for 27 March 2023</title>
+      <link>http://localhost/blogs.html#Btxt36</link>
+      <description>Flip Clock Project.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.35 for 19 March 2023</title>
+      <link>http://localhost/blogs.html#Btxt35</link>
+      <description>'Iframe', Continue to work on Goals page.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.34 for 17 March 2023</title>
+      <link>http://localhost/blogs.html#Btxt34</link>
+      <description>Clean up pages.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.33 for 8, 9 March 2023</title>
+      <link>http://localhost/blogs.html#Btxt33</link>
+      <description>Make Image map.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.32 for 7 March 2023</title>
+      <link>http://localhost/blogs.html#Btxt32</link>
+      <description>Continue to make minor updates.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.31 for 6 March 2023</title>
+      <link>http://localhost/blogs.html#Btxt31</link>
+      <description>Make Inprovements to various pages.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.30 for 27, 28 February 2023</title>
+      <link>http://localhost/blogs.html#Btxt30</link>
+      <description>Add Top of page script to more pages.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.29 for 26 February 2023</title>
+      <link>http://localhost/blogs.html#Btxt29</link>
+      <description>Make Fixes to various pages.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.28 for 24, 25 February 2023</title>
+      <link>http://localhost/blogs.html#Btxt28</link>
+      <description>Top of page Javascript.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.27 for 18 - 23 February 2023</title>
+      <link>http://localhost/blogs.html#Btxt27</link>
+      <description>Finish Resume Page.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.26 for 16,17 February 2023</title>
+      <link>http://localhost/blogs.html#Btxt26</link>
+      <description>Added to 'My Project' Page about VS Code commands.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.25 for 14,15 February 2023</title>
+      <link>http://localhost/blogs.html#Btxt25</link>
+      <description>Make changes to About me page.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.24 for 12,13 February 2023</title>
+      <link>http://localhost/blogs.html#Btxt24</link>
+      <description>Update Several pages, fix errors.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.23 for 31 January 2023</title>
+      <link>http://localhost/blogs.html#Btxt23</link>
+      <description>Update pages Get the top of Page script working properly, update To Do page.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.22 for 30 January 2023</title>
+      <link>http://localhost/blogs.html#Btxt22</link>
+      <description>I am now populating with the new Menu system, Install Github Desktop to play with, Add page and re-orgnise where source is stored</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.21 for 15 January 2023</title>
+      <link>http://localhost/blogs.html#Btxt21</link>
+      <description>Continue Experiment With Menu systems, Rename some pages.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.20 for Around 8 January 2023</title>
+      <link>http://localhost/blogs.html#Btxt20</link>
+      <description>Experiment with Drop-Down Menus.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.19 for December 2022 to January 2023</title>
+      <link>http://localhost/blogs.html#Btxt19</link>
+      <description>Doing more experiments, but the experiments is causing problem with the Menu</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.18 for 15 December 2022</title>
+      <link>http://localhost/blogs.html#Btxt18</link>
+      <description>Clean up styles on To-do and tables, Update Blogs</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.17 for 11 - 13 December 2022</title>
+      <link>http://localhost/blogs.html#Btxt17</link>
+      <description>Continue to make changes To-Do pages, Re-format page.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no16. for 8 - 10 December 2022</title>
+      <link>http://localhost/blogs.html#Btxt16</link>
+      <description>Add To Do page Re-format and copy content, Change Style sheet</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.15 for 5 / 6 December 2022</title>
+      <link>http://localhost/blogs.html#Btxt15</link>
+      <description>Add Localhost Banner to Demo page within table.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.14 for 4 December 2022</title>
+      <link>http://localhost/blogs.html#Btxt14</link>
+      <description>Work on Menu id="Btxt14"</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.13 for 22 July 2022</title>
+      <link>http://localhost/blogs.html#Btxt13</link>
+      <description>Fix Issues, Link Color, Style Page Name.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.12 for 21 July 2022</title>
+      <link>http://localhost/blogs.html#Btxt12</link>
+      <description>Get the Title of the page from the title tag using a Javascript and
+				display it in the top of the web page.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.11 for 10 July 2022</title>
+      <link>http://localhost/blogs.html#Btxt11</link>
+      <description>Work On Home Page.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.10 for 9 July 2022</title>
+      <link>http://localhost/blogs.html#Btxt10</link>
+      <description>Move Website from Tablet to New Machine.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.9 for 10 June 2021</title>
+      <link>http://localhost/blogs.html#Btxt09</link>
+      <description>Fix anchor links.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.8 for 13, 14, 15 April 2021</title>
+      <link>http://localhost/blogs.html#Btxt08</link>
+      <description>Format first version of Blog page.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.7 for 11 and 12th April 2021</title>
+      <link>http://localhost/blogs.html#Btxt07</link>
+      <description>Continue Re-organising Website id="Btxt07"</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.6 for 10 April 2021</title>
+      <link>http://localhost/blogs.html#Btxt06</link>
+      <description>Re-Orginise Website (Start)</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.5 for 9 April 2021</title>
+      <link>http://localhost/blogs.html#Btxt05</link>
+      <description>Testing formatting of text on page.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.4 for 3 April 2021</title>
+      <link>http://localhost/blogs.html#Btxt04</link>
+      <description>Create a Test page and populate some tests</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.3 for 1,2 April 2021</title>
+      <link>http://localhost/blogs.html#Btxt03</link>
+      <description>Create Single Column Page / What needs to be updated with new pages.</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.2 for March 16 / 17 2021</title>
+      <link>http://localhost/blogs.html#Btxt02</link>
+      <description>Continue With Development</description>
+    </item>
+    <item>
+      <title>This is Blog Post no.1 for 10 March 2021</title>
+      <link>http://localhost/blogs.html#Btxt01</link>
+      <description>Approx Start Date of Website.</description>
+    </item>
+    
+  </channel>
+</rss>

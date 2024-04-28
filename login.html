@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Localhost - Login Demo</title>
+		<link rel="stylesheet" href="style/basic.css" />
+		<link rel="stylesheet" href="style/custom.css">
+		<script src="js/time.js"></script>
+		<style>
+			/* Below line is used for online Google font */
+			@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+			h2 {
+				text-align: center
+			}
+
+			div.main {
+				margin: auto;
+				display: block;
+				width: 500px;
+				padding-left: 10px;
+				padding-right: 10px;
+				border: 2px solid gray;
+				border-radius: 10px;
+				font-family: raleway;
+				margin-top: 50px;
+			}
+
+			input[type=text],
+			input[type=password] {
+				width: 90%;
+				height: 40px;
+				margin-left: 10px;
+				margin-bottom: 25px;
+				margin-top: 5px;
+				border: 2px solid #ccc;
+				color: #4f4f4f;
+				font-size: 16px;
+				border-radius: 5px;
+			}
+
+			label {
+				color: #464646;
+				text-shadow: 0 1px 0 #fff;
+				font-size: 14px;
+				font-weight: bold;
+			}
+
+			center {
+				font-size: 32px;
+			}
+
+			.note {
+				color: red;
+			}
+
+			.valid {
+				color: green;
+			}
+
+			.back {
+				text-decoration: none;
+				border: 1px solid rgb(0, 143, 255);
+				background-color: rgb(0, 214, 255);
+				padding: 3px 20px;
+				border-radius: 2px;
+				color: black;
+			}
+
+			input[type=button] {
+				font-size: 16px;
+				background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+				border: 1px solid #e5a900;
+				color: #4E4D4B;
+				font-weight: bold;
+				cursor: pointer;
+				width: 100%;
+				border-radius: 5px;
+				padding: 10px 0;
+				outline: none;
+			}
+
+			input[type=button]:hover {
+				background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+			}
+		</style>
+		<!-- Include JS File Here -->
+		<script type="Text/Javascript">
+    var attempt = 3; // Variable to count number of attempts.
+    // Below function Executes on click of login button.
+    function validate() {
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+      if (username == "Formget" && password == "formget#123") {
+        window.location = "secret.html"; // Redirecting to other page.
+        return false;
+      }
+      else {
+        attempt--;// Decrementing by one.
+        alert("You have left " + attempt + " attempt;");
+        // Disabling fields after 3 attempts.
+        if (attempt == 0) {
+          document.getElementById("username").disabled = true;
+          document.getElementById("password").disabled = true;
+          document.getElementById("submit").disabled = true;
+          return false;
+        }
+      }
+    }
+  </script>
+	</head>
+
+	<body>
+		<header id="head" class="centxt">
+			<img class="himg threedtxtbox" src="img/lhproject_main.png" alt="Main Header" title="LOCALHOST" />
+
+			<script>
+				var str = document.title;
+				document.write("<h2>" + str);
+			</script>
+		</header>
+		<p style="font-size: 3pt">&nbsp;</p>
+
+		<!-- Main Menu -->
+		<nav id="nav-main">
+			<div class="nav_bar">
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="index.html">Home</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="todo.html">Things To Do</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="ThingsDone.html">Things Done</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">My Blogs</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="blog_index.html">Blog Index</a>
+						<a href="Blogs.html">Blog Detail</a>
+						<a href="blogArchive.html">Blog Archive</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="img_gal.html">Image Gallery</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<!--Drop Content-->
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Calendar Menu</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="12month.html">12 Month Calendar</a>
+						<a href="Calendar.html">Web Calendar</a>
+						<a href="EasyCal.html">Easy UI Calendar</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="#">Demo Pages</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="demo_one.html">Content Demo 1</a>
+						<a href="demo_two.html">Content Demo 2</a>
+						<a href="demo_three.html">Content Demo 3</a>
+						<a href="demo_four.html">Content Demo 4</a>
+						<a href="calage.html">Calculate Age Demo</a>
+						<a href="cssunits.html">Css Unit Demo</a>
+						<a href="Test.html">Other Tests</a>
+						<a href="Template.html">My Template</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">
+						<a href="myproject.html">My project</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="login.html">Login Demo</a>
+						<a href="useful.html">Useful Links</a>
+						<a href="Imagemap.html">Image Map</a>
+						<a href="mouseover_demo.html">Mouse Over Demo</a>
+						<a href="myanigif.html">My Animated Banner</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/back-to-top.png"
+				alt="Top of Page"></button>
+
+		<main id="Sect_Main">
+			<br />
+			<h3 class="centxt">Warning this is not a proper login page the username and password is coded in this page and
+				senisitive should not entered here.</h3>
+			<div class="container">
+				<div class="main">
+					<h2>Javascript Login Form Validation</h2>
+					<br>
+					<form id="form_id" method="post" name="myform">
+						<label>User Name :</label>
+						<input type="text" name="username" id="username" />
+						<label>Password :</label>
+						<input type="password" name="password" id="password" />
+						<input type="button" value="Login" id="submit" onclick="validate()" />
+					</form>
+					<span><b class="note">Note : </b>For this demo use following username and password. <br /><b
+							class="valid">User
+							Name : Formget<br />Password : formget#123</b></span>
+				</div>
+			</div>
+			<!--Bottom Menu Goes here-->
+			<hr />
+			<span id="indbmenu">
+				<p class="centxt">
+					&nbsp;&nbsp;&nbsp;<a href="index.html">
+						<img src="img/hm.gif" alt="Home" title="Home" class="imgsize"> Home</a>
+					&nbsp;&nbsp;&nbsp;<a href="blog_index.html">Blog
+						Index</a>&nbsp;&nbsp;&nbsp;<a href="todo.html">To Do</a>&nbsp;&nbsp;&nbsp;<br />
+					<a href="myproject.html">My Project</a>&nbsp;&nbsp;&nbsp;
+					<a href="ThingsDone.html">Things Done</a>&nbsp;&nbsp;&nbsp;<a href="useful.html">Useful
+						Links</a>
+				</p>
+			</span>
+			<br />
+			<!-- Menu Ends -->
+		</main>
+		<script type="text/Javascript">
+		// Get the button
+		let mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () { scrollFunction() };
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+
+		<!-- Footer -->
+		<footer>
+			<time id="row1">
+			</time>
+			<br />
+			<time id="row2">
+			</time>
+			<script type="text/javascript">
+				updateClock();
+			</script>
+		</footer>
+	</body>
+
+</html>
